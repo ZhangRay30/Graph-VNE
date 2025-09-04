@@ -1,6 +1,6 @@
 # 使用这个指令就能生成：python main.py --generate_pn --generate_vn
-from generator import Generator
-from config import get_config, show_config, save_config, load_config
+from data.generator import Generator
+from data.config import get_config, show_config, save_config, load_config
 config = get_config()
     ## ------         End        ------ ###
 

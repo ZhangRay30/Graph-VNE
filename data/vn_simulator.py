@@ -3,8 +3,8 @@ import copy
 from easydict import EasyDict
 
 import numpy as np
-from utils import read_setting, write_setting, generate_data_with_distribution
-from network import Network
+from data.utils import read_setting, write_setting, generate_data_with_distribution
+from data.network import Network
 
 class VirtualNetwork(Network):
     def __init__(self, incoming_graph_data=None, node_attrs_setting=[], edge_attrs_setting=[], **kwargs):
