@@ -1,4 +1,4 @@
-print(">>> Loading solver/shim.py")
+# print(">>> Loading solver/shim.py")
 import random
 from typing import Dict, List, Tuple, Optional
 from collections import defaultdict
@@ -22,15 +22,36 @@ class Controller:
         return candidates_dict
 
     def deploy(self, v_net, p_net, solution):
-        pass  # Simplified
+        pass  
 
     def deploy_with_node_slots(self, v_net, p_net, node_slots, solution, inplace=False, shortest_method="k_shortest", k_shortest=10):
         solution.node_slots = dict(node_slots)
-        solution.link_paths = {}  # Placeholder: assume direct edges
+        solution.link_paths = {}  
         solution.result = True
         solution.v_net_cost = random.uniform(10, 100)
         solution.v_net_revenue = random.uniform(100, 200)
         solution.v_net_total_hard_constraint_violation = 0
+
+    def deploy_with_node_slots(self, v_net, p_net, node_slots, solution, inplace=False, shortest_method="k_shortest", k_shortest=10):
+        solution.node_slots = dict(node_slots)
+        solution.link_paths = {}  
+        solution.result = True
+        solution.v_net_cost = random.uniform(10, 100)
+        solution.v_net_revenue = random.uniform(100, 200)
+        solution.v_net_total_hard_constraint_violation = 0
+
+        from networkx.algorithms.shortest_paths.weighted import dijkstra_path
+
+        for u, v in v_net.edges:
+            src = node_slots[u]
+            dst = node_slots[v]
+            try:
+                path = dijkstra_path(p_net, source=src, target=dst, weight="bw")
+                solution.link_paths[(u, v)] = [(path[i], path[i+1]) for i in range(len(path)-1)]
+            except nx.NetworkXNoPath:
+                solution.link_paths[(u, v)] = []
+
+        self.last_link_paths = solution.link_paths
 
 
 class Recorder:
@@ -64,7 +85,7 @@ class Solution:
         self.v_net_cost = 0
         self.v_net_revenue = 1
         self.result = False
-        self.v_net_total_hard_constraint_violation = 1  # Initially infeasible
+        self.v_net_total_hard_constraint_violation = 1  
 
     def __getitem__(self, key):
         return getattr(self, key)

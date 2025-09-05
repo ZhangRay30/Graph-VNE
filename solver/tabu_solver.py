@@ -6,8 +6,6 @@ from collections import defaultdict
 
 from .shim import Controller, Recorder, Counter, Solution, Logger
 
-print(">>> Loading solver/tabu_solver.py")
-
 INFEASIBLE_FITNESS = float('inf')
 
 
@@ -65,22 +63,27 @@ class TabuSearchSolver:
         self.k_shortest = kwargs.get('k_shortest', 10)
         self.reusable = False
 
-    def solve(self, instance):
+    def solve(self, instance, init_node_slots: dict = None):
         v_net = instance["v_net"]
         p_net = instance["p_net"]
         self.v_net = v_net
         self.p_net = p_net
         self.candidates_dict = self.controller.construct_candidates_dict(v_net, p_net)
         self.best_individual = None
-        return self.meta_run(v_net, p_net)
+        return self.meta_run(v_net, p_net, init_node_slots)
 
-    def meta_run(self, v_net, p_net):
+    def meta_run(self, v_net, p_net, init_node_slots=None):
         self.individuals = [TabuIndividual(i, v_net, p_net) for i in range(self.num_individuals)]
 
         for individual in self.individuals:
-            node_slots = self.generate_initial_node_slots(v_net, p_net)
+            if init_node_slots:
+                node_slots = copy.deepcopy(init_node_slots)
+            else:
+                node_slots = self.generate_initial_node_slots(v_net, p_net)
+
             individual.update_solution(node_slots=node_slots)
             self.controller.deploy_with_node_slots(v_net, p_net, node_slots, individual.solution, inplace=False)
+            individual.solution.link_paths = self.controller.last_link_paths  # ✅ 设置路径信息
             self.counter.count_solution(v_net, individual.solution)
             individual.update_best_solution()
             individual.last_solution = copy.deepcopy(individual.solution)
@@ -103,7 +106,7 @@ class TabuSearchSolver:
             else:
                 individual.solution = copy.deepcopy(individual.last_solution)
 
-            print(f"[Individual {individual.id}] Iteration {_} | Fitness: {curr_fitness:.4f} | Best: {individual.best_fitness:.4f}")
+            #print(f"[Individual {individual.id}] Iteration {_} | Fitness: {curr_fitness:.4f} | Best: {individual.best_fitness:.4f}")
 
     def generate_neighbor(self, individual):
         for _ in range(self.max_attempt_times):
@@ -113,6 +116,7 @@ class TabuSearchSolver:
             if p_candidate != -1 and p_candidate != current_p_node and (changed_v_node_id, p_candidate) not in individual.tabu_list:
                 individual.update_solution(node_slots={changed_v_node_id: p_candidate})
                 self.controller.deploy_with_node_slots(individual.v_net, individual.p_net, individual.solution['node_slots'], individual.solution, inplace=False)
+                individual.solution.link_paths = self.controller.last_link_paths  # ✅ 设置路径信息
                 self.counter.count_solution(individual.v_net, individual.solution)
                 individual.tabu_list.append((changed_v_node_id, p_candidate))
                 if len(individual.tabu_list) > self.tabu_tenure:

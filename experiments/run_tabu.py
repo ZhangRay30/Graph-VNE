@@ -72,6 +72,17 @@ solution = solver.solve({"v_net": v_net, "p_net": p_net})
 
 # ======== 打印结果 ========
 print(f"[VN {v_net.graph['id']}] 部署 {'成功' if solution.result else '失败'}")
-print("映射节点:", solution.node_slots)
-print("部署成本:", solution.v_net_cost)
-print("部署收益:", solution.v_net_revenue)
+print("映射节点 (node_slots):")
+for v_node, p_node in solution.node_slots.items():
+    print(f"  VN Node {v_node} -> PN Node {p_node}")
+
+print(f"部署成本: {solution.v_net_cost}")
+print(f"部署收益: {solution.v_net_revenue}")
+
+# ======== 打印链路路径信息 (link_paths) ========
+print("\n映射链路 (link_paths):")
+if hasattr(solution, 'link_paths') and solution.link_paths:
+    for v_link, path in solution.link_paths.items():
+        print(f"  VN Link {v_link} -> PN Path {path}")
+else:
+    print("  [无路径信息]")
