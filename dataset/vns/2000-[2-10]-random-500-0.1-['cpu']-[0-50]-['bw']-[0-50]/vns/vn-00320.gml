@@ -22,49 +22,44 @@ graph [
     type "resource"
   ]
   id 320
-  arrival_time 3177.0
-  lifetime 870.1979592183851
+  arrival_time 3161.0
+  lifetime 316.34873513168264
   num_nodes 4
   type "random"
   random_prob 0.5
   node [
     id 0
     label "0"
-    cpu 25
+    cpu 46
   ]
   node [
     id 1
     label "1"
-    cpu 26
+    cpu 45
   ]
   node [
     id 2
     label "2"
-    cpu 47
+    cpu 5
   ]
   node [
     id 3
     label "3"
-    cpu 45
-  ]
-  edge [
-    source 0
-    target 1
-    bw 25
+    cpu 15
   ]
   edge [
     source 0
     target 2
-    bw 20
-  ]
-  edge [
-    source 0
-    target 3
-    bw 24
+    bw 30
   ]
   edge [
     source 1
     target 2
-    bw 29
+    bw 39
+  ]
+  edge [
+    source 2
+    target 3
+    bw 48
   ]
 ]

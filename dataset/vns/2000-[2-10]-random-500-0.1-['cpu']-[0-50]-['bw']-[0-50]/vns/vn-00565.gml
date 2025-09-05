@@ -22,139 +22,109 @@ graph [
     type "resource"
   ]
   id 565
-  arrival_time 5579.0
-  lifetime 258.3169750891214
-  num_nodes 8
+  arrival_time 5517.0
+  lifetime 256.9745138414221
+  num_nodes 7
   type "random"
   random_prob 0.5
   node [
     id 0
     label "0"
-    cpu 46
+    cpu 49
   ]
   node [
     id 1
     label "1"
-    cpu 3
+    cpu 34
   ]
   node [
     id 2
     label "2"
-    cpu 25
+    cpu 9
   ]
   node [
     id 3
     label "3"
-    cpu 10
+    cpu 40
   ]
   node [
     id 4
     label "4"
-    cpu 9
+    cpu 20
   ]
   node [
     id 5
     label "5"
-    cpu 41
+    cpu 11
   ]
   node [
     id 6
     label "6"
-    cpu 36
-  ]
-  node [
-    id 7
-    label "7"
-    cpu 14
-  ]
-  edge [
-    source 0
-    target 1
-    bw 16
+    cpu 37
   ]
   edge [
     source 0
     target 2
-    bw 46
+    bw 35
   ]
   edge [
     source 0
-    target 5
-    bw 37
-  ]
-  edge [
-    source 0
-    target 6
-    bw 42
-  ]
-  edge [
-    source 0
-    target 7
-    bw 29
-  ]
-  edge [
-    source 1
     target 4
-    bw 25
+    bw 0
   ]
   edge [
-    source 1
+    source 0
     target 5
-    bw 49
+    bw 27
   ]
   edge [
     source 1
-    target 7
-    bw 32
+    target 2
+    bw 30
+  ]
+  edge [
+    source 1
+    target 3
+    bw 14
+  ]
+  edge [
+    source 1
+    target 6
+    bw 20
   ]
   edge [
     source 2
     target 3
-    bw 45
+    bw 46
   ]
   edge [
     source 2
-    target 4
-    bw 45
-  ]
-  edge [
-    source 2
-    target 5
-    bw 49
-  ]
-  edge [
-    source 2
-    target 7
-    bw 23
+    target 6
+    bw 20
   ]
   edge [
     source 3
-    target 7
-    bw 6
+    target 4
+    bw 16
   ]
   edge [
-    source 4
+    source 3
     target 5
-    bw 20
+    bw 19
+  ]
+  edge [
+    source 3
+    target 6
+    bw 3
   ]
   edge [
     source 4
     target 6
-    bw 9
-  ]
-  edge [
-    source 4
-    target 7
-    bw 42
+    bw 7
   ]
   edge [
     source 5
-    target 7
-    bw 10
-  ]
-  edge [
-    source 6
-    target 7
-    bw 33
+    target 6
+    bw 8
   ]
 ]

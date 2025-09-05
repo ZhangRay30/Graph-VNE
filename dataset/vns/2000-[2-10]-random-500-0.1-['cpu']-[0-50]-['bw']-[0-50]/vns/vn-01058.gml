@@ -23,23 +23,48 @@ graph [
   ]
   id 1058
   arrival_time 10458.0
-  lifetime 347.6541180441776
-  num_nodes 2
+  lifetime 147.7019768674668
+  num_nodes 4
   type "random"
   random_prob 0.5
   node [
     id 0
     label "0"
-    cpu 16
+    cpu 28
   ]
   node [
     id 1
     label "1"
-    cpu 43
+    cpu 18
+  ]
+  node [
+    id 2
+    label "2"
+    cpu 34
+  ]
+  node [
+    id 3
+    label "3"
+    cpu 11
   ]
   edge [
     source 0
-    target 1
-    bw 10
+    target 2
+    bw 47
+  ]
+  edge [
+    source 0
+    target 3
+    bw 19
+  ]
+  edge [
+    source 1
+    target 2
+    bw 3
+  ]
+  edge [
+    source 1
+    target 3
+    bw 16
   ]
 ]

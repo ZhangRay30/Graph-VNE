@@ -22,139 +22,169 @@ graph [
     type "resource"
   ]
   id 566
-  arrival_time 5587.0
-  lifetime 41.47949445294709
-  num_nodes 9
+  arrival_time 5527.0
+  lifetime 88.69775651321069
+  num_nodes 10
   type "random"
   random_prob 0.5
   node [
     id 0
     label "0"
-    cpu 20
+    cpu 30
   ]
   node [
     id 1
     label "1"
-    cpu 27
+    cpu 44
   ]
   node [
     id 2
     label "2"
-    cpu 42
+    cpu 6
   ]
   node [
     id 3
     label "3"
-    cpu 10
+    cpu 2
   ]
   node [
     id 4
     label "4"
-    cpu 12
+    cpu 47
   ]
   node [
     id 5
     label "5"
-    cpu 20
+    cpu 9
   ]
   node [
     id 6
     label "6"
-    cpu 36
+    cpu 45
   ]
   node [
     id 7
     label "7"
-    cpu 24
+    cpu 6
   ]
   node [
     id 8
     label "8"
-    cpu 29
+    cpu 1
+  ]
+  node [
+    id 9
+    label "9"
+    cpu 32
+  ]
+  edge [
+    source 0
+    target 1
+    bw 18
+  ]
+  edge [
+    source 0
+    target 2
+    bw 26
   ]
   edge [
     source 0
     target 3
-    bw 46
+    bw 40
   ]
   edge [
     source 0
-    target 4
-    bw 46
+    target 5
+    bw 7
   ]
   edge [
     source 0
-    target 6
-    bw 33
+    target 7
+    bw 24
   ]
   edge [
     source 0
-    target 8
-    bw 33
+    target 9
+    bw 6
   ]
   edge [
     source 1
     target 2
-    bw 40
+    bw 31
   ]
   edge [
     source 1
-    target 4
-    bw 32
-  ]
-  edge [
-    source 1
-    target 5
-    bw 41
-  ]
-  edge [
-    source 1
-    target 6
+    target 3
     bw 25
   ]
   edge [
     source 1
-    target 8
-    bw 33
+    target 7
+    bw 24
   ]
   edge [
     source 2
     target 3
-    bw 7
+    bw 1
   ]
   edge [
     source 2
-    target 7
-    bw 16
+    target 5
+    bw 48
+  ]
+  edge [
+    source 2
+    target 6
+    bw 46
   ]
   edge [
     source 2
     target 8
-    bw 40
+    bw 22
+  ]
+  edge [
+    source 3
+    target 4
+    bw 34
   ]
   edge [
     source 3
     target 5
-    bw 0
+    bw 24
   ]
   edge [
     source 3
-    target 7
-    bw 44
+    target 9
+    bw 33
   ]
   edge [
-    source 3
-    target 8
-    bw 0
+    source 4
+    target 5
+    bw 22
   ]
   edge [
     source 4
     target 7
-    bw 33
+    bw 12
   ]
   edge [
     source 5
-    target 6
-    bw 34
+    target 8
+    bw 38
+  ]
+  edge [
+    source 5
+    target 9
+    bw 35
+  ]
+  edge [
+    source 7
+    target 9
+    bw 8
+  ]
+  edge [
+    source 8
+    target 9
+    bw 9
   ]
 ]

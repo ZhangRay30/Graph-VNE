@@ -22,89 +22,119 @@ graph [
     type "resource"
   ]
   id 182
-  arrival_time 1828.0
-  lifetime 235.68716054440293
-  num_nodes 6
+  arrival_time 1860.0
+  lifetime 156.83286607732924
+  num_nodes 8
   type "random"
   random_prob 0.5
   node [
     id 0
     label "0"
-    cpu 47
+    cpu 20
   ]
   node [
     id 1
     label "1"
-    cpu 20
+    cpu 27
   ]
   node [
     id 2
     label "2"
-    cpu 35
+    cpu 11
   ]
   node [
     id 3
     label "3"
-    cpu 17
+    cpu 32
   ]
   node [
     id 4
     label "4"
-    cpu 39
+    cpu 12
   ]
   node [
     id 5
     label "5"
-    cpu 50
+    cpu 28
+  ]
+  node [
+    id 6
+    label "6"
+    cpu 45
+  ]
+  node [
+    id 7
+    label "7"
+    cpu 35
   ]
   edge [
     source 0
     target 1
-    bw 14
+    bw 26
   ]
   edge [
     source 0
-    target 2
-    bw 28
-  ]
-  edge [
-    source 0
-    target 4
-    bw 46
-  ]
-  edge [
-    source 0
-    target 5
-    bw 11
-  ]
-  edge [
-    source 1
-    target 2
-    bw 30
-  ]
-  edge [
-    source 1
     target 3
-    bw 21
+    bw 12
+  ]
+  edge [
+    source 0
+    target 4
+    bw 23
+  ]
+  edge [
+    source 0
+    target 6
+    bw 36
   ]
   edge [
     source 1
-    target 4
+    target 2
+    bw 50
+  ]
+  edge [
+    source 1
+    target 5
     bw 0
   ]
   edge [
     source 2
     target 3
-    bw 29
+    bw 33
   ]
   edge [
     source 2
-    target 5
-    bw 11
+    target 4
+    bw 21
   ]
   edge [
     source 3
     target 4
-    bw 37
+    bw 23
+  ]
+  edge [
+    source 3
+    target 5
+    bw 36
+  ]
+  edge [
+    source 3
+    target 7
+    bw 43
+  ]
+  edge [
+    source 4
+    target 6
+    bw 36
+  ]
+  edge [
+    source 5
+    target 7
+    bw 36
+  ]
+  edge [
+    source 6
+    target 7
+    bw 31
   ]
 ]

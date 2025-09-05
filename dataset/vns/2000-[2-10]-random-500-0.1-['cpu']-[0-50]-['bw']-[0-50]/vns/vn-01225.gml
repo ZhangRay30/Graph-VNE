@@ -22,134 +22,119 @@ graph [
     type "resource"
   ]
   id 1225
-  arrival_time 12148.0
-  lifetime 100.26878110997181
+  arrival_time 12121.0
+  lifetime 1491.8045714567545
   num_nodes 8
   type "random"
   random_prob 0.5
   node [
     id 0
     label "0"
-    cpu 4
+    cpu 3
   ]
   node [
     id 1
     label "1"
-    cpu 37
+    cpu 39
   ]
   node [
     id 2
     label "2"
-    cpu 9
+    cpu 38
   ]
   node [
     id 3
     label "3"
-    cpu 21
+    cpu 27
   ]
   node [
     id 4
     label "4"
-    cpu 45
+    cpu 32
   ]
   node [
     id 5
     label "5"
-    cpu 26
+    cpu 7
   ]
   node [
     id 6
     label "6"
-    cpu 17
+    cpu 45
   ]
   node [
     id 7
     label "7"
-    cpu 9
-  ]
-  edge [
-    source 0
-    target 2
-    bw 16
+    cpu 15
   ]
   edge [
     source 0
     target 4
-    bw 6
+    bw 37
   ]
   edge [
     source 0
     target 5
-    bw 11
+    bw 12
   ]
   edge [
     source 0
-    target 6
-    bw 20
+    target 7
+    bw 38
   ]
   edge [
     source 1
     target 2
-    bw 36
+    bw 43
   ]
   edge [
     source 1
     target 3
+    bw 42
+  ]
+  edge [
+    source 1
+    target 5
+    bw 9
+  ]
+  edge [
+    source 3
+    target 4
+    bw 41
+  ]
+  edge [
+    source 3
+    target 6
+    bw 40
+  ]
+  edge [
+    source 3
+    target 7
     bw 35
   ]
   edge [
-    source 1
+    source 4
     target 6
-    bw 8
+    bw 38
   ]
   edge [
-    source 1
+    source 4
     target 7
-    bw 46
-  ]
-  edge [
-    source 2
-    target 3
-    bw 44
-  ]
-  edge [
-    source 2
-    target 4
-    bw 20
-  ]
-  edge [
-    source 2
-    target 5
-    bw 10
-  ]
-  edge [
-    source 2
-    target 6
-    bw 15
-  ]
-  edge [
-    source 3
-    target 4
-    bw 49
-  ]
-  edge [
-    source 3
-    target 5
-    bw 17
-  ]
-  edge [
-    source 3
-    target 6
-    bw 50
+    bw 32
   ]
   edge [
     source 5
     target 6
-    bw 37
+    bw 46
+  ]
+  edge [
+    source 5
+    target 7
+    bw 46
   ]
   edge [
     source 6
     target 7
-    bw 26
+    bw 37
   ]
 ]

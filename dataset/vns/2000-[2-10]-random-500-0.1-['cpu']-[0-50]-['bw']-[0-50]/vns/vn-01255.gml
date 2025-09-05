@@ -23,33 +23,33 @@ graph [
   ]
   id 1255
   arrival_time 12420.0
-  lifetime 268.0506091515358
+  lifetime 270.38472375828087
   num_nodes 3
   type "random"
   random_prob 0.5
   node [
     id 0
     label "0"
-    cpu 2
+    cpu 46
   ]
   node [
     id 1
     label "1"
-    cpu 4
+    cpu 45
   ]
   node [
     id 2
     label "2"
-    cpu 18
+    cpu 19
   ]
   edge [
     source 0
     target 1
-    bw 34
+    bw 42
   ]
   edge [
-    source 1
+    source 0
     target 2
-    bw 45
+    bw 5
   ]
 ]

@@ -22,9 +22,9 @@ graph [
     type "resource"
   ]
   id 8
-  arrival_time 80.0
-  lifetime 458.77565196928276
-  num_nodes 4
+  arrival_time 82.0
+  lifetime 406.31482708000647
+  num_nodes 10
   type "random"
   random_prob 0.5
   node [
@@ -35,31 +35,166 @@ graph [
   node [
     id 1
     label "1"
-    cpu 18
+    cpu 11
   ]
   node [
     id 2
     label "2"
-    cpu 41
+    cpu 7
   ]
   node [
     id 3
     label "3"
-    cpu 33
+    cpu 30
+  ]
+  node [
+    id 4
+    label "4"
+    cpu 4
+  ]
+  node [
+    id 5
+    label "5"
+    cpu 15
+  ]
+  node [
+    id 6
+    label "6"
+    cpu 47
+  ]
+  node [
+    id 7
+    label "7"
+    cpu 2
+  ]
+  node [
+    id 8
+    label "8"
+    cpu 9
+  ]
+  node [
+    id 9
+    label "9"
+    cpu 45
   ]
   edge [
     source 0
     target 1
-    bw 9
+    bw 0
   ]
   edge [
     source 0
     target 2
-    bw 39
+    bw 10
+  ]
+  edge [
+    source 0
+    target 3
+    bw 18
+  ]
+  edge [
+    source 0
+    target 4
+    bw 42
+  ]
+  edge [
+    source 0
+    target 6
+    bw 0
+  ]
+  edge [
+    source 0
+    target 7
+    bw 35
   ]
   edge [
     source 1
+    target 2
+    bw 41
+  ]
+  edge [
+    source 1
+    target 4
+    bw 15
+  ]
+  edge [
+    source 1
+    target 5
+    bw 25
+  ]
+  edge [
+    source 1
+    target 9
+    bw 29
+  ]
+  edge [
+    source 2
     target 3
-    bw 7
+    bw 38
+  ]
+  edge [
+    source 2
+    target 6
+    bw 11
+  ]
+  edge [
+    source 2
+    target 8
+    bw 22
+  ]
+  edge [
+    source 3
+    target 6
+    bw 16
+  ]
+  edge [
+    source 3
+    target 7
+    bw 49
+  ]
+  edge [
+    source 3
+    target 9
+    bw 48
+  ]
+  edge [
+    source 4
+    target 5
+    bw 24
+  ]
+  edge [
+    source 4
+    target 8
+    bw 24
+  ]
+  edge [
+    source 4
+    target 9
+    bw 39
+  ]
+  edge [
+    source 5
+    target 8
+    bw 47
+  ]
+  edge [
+    source 6
+    target 7
+    bw 22
+  ]
+  edge [
+    source 6
+    target 8
+    bw 21
+  ]
+  edge [
+    source 6
+    target 9
+    bw 12
+  ]
+  edge [
+    source 7
+    target 9
+    bw 43
   ]
 ]

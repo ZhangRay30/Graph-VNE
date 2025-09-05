@@ -22,85 +22,110 @@ graph [
     type "resource"
   ]
   id 266
-  arrival_time 2612.0
-  lifetime 35.13685866406659
-  num_nodes 7
+  arrival_time 2659.0
+  lifetime 597.4475818092541
+  num_nodes 9
   type "random"
   random_prob 0.5
   node [
     id 0
     label "0"
-    cpu 41
+    cpu 31
   ]
   node [
     id 1
     label "1"
-    cpu 36
+    cpu 35
   ]
   node [
     id 2
     label "2"
-    cpu 39
+    cpu 37
   ]
   node [
     id 3
     label "3"
-    cpu 6
+    cpu 47
   ]
   node [
     id 4
     label "4"
-    cpu 19
+    cpu 43
   ]
   node [
     id 5
     label "5"
-    cpu 12
+    cpu 2
   ]
   node [
     id 6
     label "6"
-    cpu 9
+    cpu 17
+  ]
+  node [
+    id 7
+    label "7"
+    cpu 19
+  ]
+  node [
+    id 8
+    label "8"
+    cpu 34
   ]
   edge [
     source 0
-    target 1
+    target 3
+    bw 7
+  ]
+  edge [
+    source 0
+    target 4
+    bw 40
+  ]
+  edge [
+    source 0
+    target 6
     bw 16
   ]
   edge [
     source 0
+    target 7
+    bw 36
+  ]
+  edge [
+    source 1
     target 2
-    bw 13
+    bw 43
   ]
   edge [
-    source 0
+    source 1
     target 4
-    bw 27
-  ]
-  edge [
-    source 0
-    target 5
     bw 6
   ]
   edge [
     source 1
-    target 3
-    bw 2
+    target 5
+    bw 12
   ]
   edge [
-    source 2
-    target 3
-    bw 2
-  ]
-  edge [
-    source 2
-    target 4
-    bw 3
-  ]
-  edge [
-    source 2
+    source 1
     target 6
-    bw 6
+    bw 2
+  ]
+  edge [
+    source 1
+    target 8
+    bw 20
+  ]
+  edge [
+    source 2
+    target 5
+    bw 8
+  ]
+  edge [
+    source 2
+    target 7
+    bw 5
   ]
   edge [
     source 3
@@ -108,13 +133,33 @@ graph [
     bw 41
   ]
   edge [
-    source 4
-    target 5
-    bw 3
+    source 3
+    target 8
+    bw 15
   ]
   edge [
     source 4
+    target 5
+    bw 37
+  ]
+  edge [
+    source 4
+    target 7
+    bw 5
+  ]
+  edge [
+    source 5
     target 6
-    bw 30
+    bw 49
+  ]
+  edge [
+    source 6
+    target 7
+    bw 1
+  ]
+  edge [
+    source 6
+    target 8
+    bw 45
   ]
 ]

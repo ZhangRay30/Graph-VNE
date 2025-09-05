@@ -22,55 +22,45 @@ graph [
     type "resource"
   ]
   id 294
-  arrival_time 2900.0
-  lifetime 87.19081837184707
-  num_nodes 9
+  arrival_time 2928.0
+  lifetime 308.84198964087415
+  num_nodes 7
   type "random"
   random_prob 0.5
   node [
     id 0
     label "0"
-    cpu 44
+    cpu 22
   ]
   node [
     id 1
     label "1"
-    cpu 14
+    cpu 49
   ]
   node [
     id 2
     label "2"
-    cpu 19
+    cpu 1
   ]
   node [
     id 3
     label "3"
-    cpu 12
+    cpu 16
   ]
   node [
     id 4
     label "4"
-    cpu 35
+    cpu 50
   ]
   node [
     id 5
     label "5"
-    cpu 10
+    cpu 4
   ]
   node [
     id 6
     label "6"
-    cpu 32
-  ]
-  node [
-    id 7
-    label "7"
-    cpu 45
-  ]
-  node [
-    id 8
-    label "8"
-    cpu 31
+    cpu 29
   ]
   edge [
     source 0
@@ -80,81 +70,66 @@ graph [
   edge [
     source 0
     target 4
-    bw 29
+    bw 14
   ]
   edge [
     source 0
     target 5
+    bw 13
+  ]
+  edge [
+    source 0
+    target 6
     bw 18
   ]
   edge [
-    source 0
-    target 6
-    bw 48
-  ]
-  edge [
-    source 0
-    target 8
-    bw 37
-  ]
-  edge [
     source 1
-    target 2
-    bw 45
-  ]
-  edge [
-    source 1
-    target 4
-    bw 23
+    target 3
+    bw 15
   ]
   edge [
     source 1
     target 5
-    bw 0
+    bw 42
   ]
   edge [
-    source 1
-    target 6
-    bw 30
+    source 2
+    target 3
+    bw 15
   ]
   edge [
-    source 1
-    target 7
-    bw 1
+    source 2
+    target 4
+    bw 8
   ]
   edge [
     source 2
     target 5
-    bw 37
+    bw 9
   ]
   edge [
     source 2
-    target 7
-    bw 48
+    target 6
+    bw 2
   ]
   edge [
     source 3
-    target 4
-    bw 41
-  ]
-  edge [
-    source 3
-    target 7
-    bw 31
-  ]
-  edge [
-    source 4
-    target 8
-    bw 49
-  ]
-  edge [
-    source 5
-    target 7
+    target 5
     bw 21
   ]
   edge [
-    source 7
-    target 8
-    bw 48
+    source 4
+    target 5
+    bw 45
+  ]
+  edge [
+    source 4
+    target 6
+    bw 4
+  ]
+  edge [
+    source 5
+    target 6
+    bw 2
   ]
 ]

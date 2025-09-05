@@ -40,1288 +40,1240 @@ graph [
   node [
     id 0
     label "0"
-    pos 0.33630836175689716
-    pos 0.39307472769272533
-    cpu 64
-    max_cpu 64
+    pos 0.4048976545667943
+    pos 0.18653846746097769
+    cpu 57
+    max_cpu 57
   ]
   node [
     id 1
     label "1"
-    pos 0.2859697140238162
-    pos 0.3785951713325708
-    cpu 85
-    max_cpu 85
-  ]
-  node [
-    id 2
-    label "2"
-    pos 0.8601729854186952
-    pos 0.5194372058677765
-    cpu 83
-    max_cpu 83
-  ]
-  node [
-    id 3
-    label "3"
-    pos 0.10636310034816188
-    pos 0.9488367989489953
-    cpu 82
-    max_cpu 82
-  ]
-  node [
-    id 4
-    label "4"
-    pos 0.7424929310007242
-    pos 0.038213988684563494
-    cpu 62
-    max_cpu 62
-  ]
-  node [
-    id 5
-    label "5"
-    pos 0.586200212561045
-    pos 0.5239414437253787
-    cpu 97
-    max_cpu 97
-  ]
-  node [
-    id 6
-    label "6"
-    pos 0.27126729723216936
-    pos 0.25019854215161696
-    cpu 62
-    max_cpu 62
-  ]
-  node [
-    id 7
-    label "7"
-    pos 0.38939226323388976
-    pos 0.398921125812162
-    cpu 52
-    max_cpu 52
-  ]
-  node [
-    id 8
-    label "8"
-    pos 0.6935322139156693
-    pos 0.30460166259664856
-    cpu 66
-    max_cpu 66
-  ]
-  node [
-    id 9
-    label "9"
-    pos 0.3313025473067559
-    pos 0.5390398865036469
-    cpu 77
-    max_cpu 77
-  ]
-  node [
-    id 10
-    label "10"
-    pos 0.2264651217316882
-    pos 0.8864482145508352
-    cpu 61
-    max_cpu 61
-  ]
-  node [
-    id 11
-    label "11"
-    pos 0.0060357309263096015
-    pos 0.5529576231916238
-    cpu 99
-    max_cpu 99
-  ]
-  node [
-    id 12
-    label "12"
-    pos 0.13771268752605426
-    pos 0.6449364936240428
-    cpu 55
-    max_cpu 55
-  ]
-  node [
-    id 13
-    label "13"
-    pos 0.2758381636669185
-    pos 0.09692484852704086
-    cpu 60
-    max_cpu 60
-  ]
-  node [
-    id 14
-    label "14"
-    pos 0.4640214271853109
-    pos 0.6466118998631171
-    cpu 100
-    max_cpu 100
-  ]
-  node [
-    id 15
-    label "15"
-    pos 0.35036985850883107
-    pos 0.4263953122075411
-    cpu 96
-    max_cpu 96
-  ]
-  node [
-    id 16
-    label "16"
-    pos 0.869467991123414
-    pos 0.41352340302786894
-    cpu 85
-    max_cpu 85
-  ]
-  node [
-    id 17
-    label "17"
-    pos 0.3099384115667505
-    pos 0.5557068678845052
-    cpu 59
-    max_cpu 59
-  ]
-  node [
-    id 18
-    label "18"
-    pos 0.06410508687575944
-    pos 0.1751473652627078
-    cpu 50
-    max_cpu 50
-  ]
-  node [
-    id 19
-    label "19"
-    pos 0.26835421037299656
-    pos 0.9190886770552559
-    cpu 81
-    max_cpu 81
-  ]
-  node [
-    id 20
-    label "20"
-    pos 0.8853433194583232
-    pos 0.9829077318174299
-    cpu 86
-    max_cpu 86
-  ]
-  node [
-    id 21
-    label "21"
-    pos 0.45185476458357454
-    pos 0.7187064060613627
-    cpu 96
-    max_cpu 96
-  ]
-  node [
-    id 22
-    label "22"
-    pos 0.6275014441068155
-    pos 0.002600862358624001
-    cpu 89
-    max_cpu 89
-  ]
-  node [
-    id 23
-    label "23"
-    pos 0.3336118056991155
-    pos 0.713211425215455
-    cpu 57
-    max_cpu 57
-  ]
-  node [
-    id 24
-    label "24"
-    pos 0.8019822872885471
-    pos 0.8645752259257372
-    cpu 82
-    max_cpu 82
-  ]
-  node [
-    id 25
-    label "25"
-    pos 0.23499814912225792
-    pos 0.5780542222572875
-    cpu 51
-    max_cpu 51
-  ]
-  node [
-    id 26
-    label "26"
-    pos 0.9306926519657809
-    pos 0.9734275484889651
-    cpu 64
-    max_cpu 64
-  ]
-  node [
-    id 27
-    label "27"
-    pos 0.09864399144800451
-    pos 0.3422565974817442
-    cpu 84
-    max_cpu 84
-  ]
-  node [
-    id 28
-    label "28"
-    pos 0.5832013328997294
-    pos 0.35818703372834304
-    cpu 57
-    max_cpu 57
-  ]
-  node [
-    id 29
-    label "29"
-    pos 0.47217753222876724
-    pos 0.9089654284811671
-    cpu 54
-    max_cpu 54
-  ]
-  node [
-    id 30
-    label "30"
-    pos 0.3272362130720875
-    pos 0.4840849666751611
-    cpu 91
-    max_cpu 91
-  ]
-  node [
-    id 31
-    label "31"
-    pos 0.8451027936686999
-    pos 0.2967567416452376
-    cpu 69
-    max_cpu 69
-  ]
-  node [
-    id 32
-    label "32"
-    pos 0.28423345193008054
-    pos 0.8800512451419427
-    cpu 96
-    max_cpu 96
-  ]
-  node [
-    id 33
-    label "33"
-    pos 0.5478831379841568
-    pos 0.5483789970109502
-    cpu 87
-    max_cpu 87
-  ]
-  node [
-    id 34
-    label "34"
-    pos 0.9853682552488994
-    pos 0.38837208114064925
+    pos 0.4457531724750413
+    pos 0.933387330262813
     cpu 53
     max_cpu 53
   ]
   node [
-    id 35
-    label "35"
-    pos 0.10436187031435407
-    pos 0.9168695509277804
-    cpu 73
-    max_cpu 73
+    id 2
+    label "2"
+    pos 0.019893502841339727
+    pos 0.4090459175770216
+    cpu 93
+    max_cpu 93
   ]
   node [
-    id 36
-    label "36"
-    pos 0.6442195901124419
-    pos 0.3309396318837281
-    cpu 78
-    max_cpu 78
+    id 3
+    label "3"
+    pos 0.6857091228804492
+    pos 0.8658668928306509
+    cpu 65
+    max_cpu 65
   ]
   node [
-    id 37
-    label "37"
-    pos 0.8625860108873259
-    pos 0.6762869979870129
-    cpu 94
-    max_cpu 94
-  ]
-  node [
-    id 38
-    label "38"
-    pos 0.5479386378206897
-    pos 0.09817526498760731
-    cpu 55
-    max_cpu 55
-  ]
-  node [
-    id 39
-    label "39"
-    pos 0.5331064742825071
-    pos 0.633050635364937
-    cpu 78
-    max_cpu 78
-  ]
-  node [
-    id 40
-    label "40"
-    pos 0.14089790203928554
-    pos 0.00012207254098117737
-    cpu 76
-    max_cpu 76
-  ]
-  node [
-    id 41
-    label "41"
-    pos 0.9373490203406833
-    pos 0.6555680326261466
-    cpu 72
-    max_cpu 72
-  ]
-  node [
-    id 42
-    label "42"
-    pos 0.9162849899889808
-    pos 0.9834808292956282
-    cpu 85
-    max_cpu 85
-  ]
-  node [
-    id 43
-    label "43"
-    pos 0.1263771217883647
-    pos 0.14488742368929042
-    cpu 98
-    max_cpu 98
-  ]
-  node [
-    id 44
-    label "44"
-    pos 0.5512503012970226
-    pos 0.5529368370998663
-    cpu 63
-    max_cpu 63
-  ]
-  node [
-    id 45
-    label "45"
-    pos 0.9562715071897143
-    pos 0.38312053148635083
-    cpu 68
-    max_cpu 68
-  ]
-  node [
-    id 46
-    label "46"
-    pos 0.9420683562791445
-    pos 0.6101993434873025
-    cpu 55
-    max_cpu 55
-  ]
-  node [
-    id 47
-    label "47"
-    pos 0.47525839225985933
-    pos 0.5522376534151285
-    cpu 57
-    max_cpu 57
-  ]
-  node [
-    id 48
-    label "48"
-    pos 0.052225494221641355
-    pos 0.013817310830540053
-    cpu 56
-    max_cpu 56
-  ]
-  node [
-    id 49
-    label "49"
-    pos 0.46072180396448725
-    pos 0.0013885668397741746
-    cpu 58
-    max_cpu 58
-  ]
-  node [
-    id 50
-    label "50"
-    pos 0.594820450198107
-    pos 0.04158317021251723
-    cpu 57
-    max_cpu 57
-  ]
-  node [
-    id 51
-    label "51"
-    pos 0.43559162582157374
-    pos 0.23587167641350526
-    cpu 62
-    max_cpu 62
-  ]
-  node [
-    id 52
-    label "52"
-    pos 0.12356164019617388
-    pos 0.8520411736103104
-    cpu 88
-    max_cpu 88
-  ]
-  node [
-    id 53
-    label "53"
-    pos 0.460082754967277
-    pos 0.019173097499601943
-    cpu 74
-    max_cpu 74
-  ]
-  node [
-    id 54
-    label "54"
-    pos 0.38399104673549067
-    pos 0.1555300915000143
-    cpu 69
-    max_cpu 69
-  ]
-  node [
-    id 55
-    label "55"
-    pos 0.5598579570950949
-    pos 0.021920123756041354
-    cpu 92
-    max_cpu 92
-  ]
-  node [
-    id 56
-    label "56"
-    pos 0.7863729032881343
-    pos 0.9913884561114908
-    cpu 51
-    max_cpu 51
-  ]
-  node [
-    id 57
-    label "57"
-    pos 0.061926920922374395
-    pos 0.813163023247974
+    id 4
+    label "4"
+    pos 0.1364008460223911
+    pos 0.548260843537005
     cpu 77
     max_cpu 77
   ]
   node [
-    id 58
-    label "58"
-    pos 0.7301025634505298
-    pos 0.29412602712567415
-    cpu 61
-    max_cpu 61
+    id 5
+    label "5"
+    pos 0.7880764802918164
+    pos 0.9180421853339912
+    cpu 64
+    max_cpu 64
   ]
   node [
-    id 59
-    label "59"
-    pos 0.2057465452640238
-    pos 0.8760872416710198
-    cpu 89
-    max_cpu 89
+    id 6
+    label "6"
+    pos 0.4674474326145981
+    pos 0.980250790849129
+    cpu 84
+    max_cpu 84
   ]
   node [
-    id 60
-    label "60"
-    pos 0.7856037791786034
-    pos 0.3177599658474033
-    cpu 56
-    max_cpu 56
-  ]
-  node [
-    id 61
-    label "61"
-    pos 0.21246396699935233
-    pos 0.6547048329893783
-    cpu 88
-    max_cpu 88
-  ]
-  node [
-    id 62
-    label "62"
-    pos 0.21063561565767608
-    pos 0.1388923155927615
+    id 7
+    label "7"
+    pos 0.8199492950837356
+    pos 0.35575401796561135
     cpu 80
     max_cpu 80
   ]
   node [
-    id 63
-    label "63"
-    pos 0.8176535926899366
-    pos 0.816651674307636
+    id 8
+    label "8"
+    pos 0.07852357935995391
+    pos 0.3810370200326355
+    cpu 60
+    max_cpu 60
+  ]
+  node [
+    id 9
+    label "9"
+    pos 0.6282514574368818
+    pos 0.3469511773043815
+    cpu 66
+    max_cpu 66
+  ]
+  node [
+    id 10
+    label "10"
+    pos 0.5088855440973445
+    pos 0.5739609971175016
+    cpu 96
+    max_cpu 96
+  ]
+  node [
+    id 11
+    label "11"
+    pos 0.480214322769955
+    pos 0.9126018653581548
     cpu 54
     max_cpu 54
   ]
   node [
-    id 64
-    label "64"
-    pos 0.8405527009474892
-    pos 0.8303695171391989
+    id 12
+    label "12"
+    pos 0.6537454733052117
+    pos 0.941934807264802
+    cpu 54
+    max_cpu 54
+  ]
+  node [
+    id 13
+    label "13"
+    pos 0.7077127148995606
+    pos 0.5020240873175941
+    cpu 77
+    max_cpu 77
+  ]
+  node [
+    id 14
+    label "14"
+    pos 0.020965761198705635
+    pos 0.3638948502160624
+    cpu 82
+    max_cpu 82
+  ]
+  node [
+    id 15
+    label "15"
+    pos 0.19281064529664282
+    pos 0.22518650661759487
     cpu 58
     max_cpu 58
   ]
   node [
-    id 65
-    label "65"
-    pos 0.8380649207356814
-    pos 0.12427358216812656
-    cpu 93
-    max_cpu 93
+    id 16
+    label "16"
+    pos 0.21653317458278842
+    pos 0.7934262158570682
+    cpu 79
+    max_cpu 79
   ]
   node [
-    id 66
-    label "66"
-    pos 0.33822867912788634
-    pos 0.193711466155
-    cpu 58
-    max_cpu 58
+    id 17
+    label "17"
+    pos 0.15692598395980473
+    pos 0.43783705088504166
+    cpu 56
+    max_cpu 56
   ]
   node [
-    id 67
-    label "67"
-    pos 0.2481540230681647
-    pos 0.9859616343561768
-    cpu 97
-    max_cpu 97
+    id 18
+    label "18"
+    pos 0.045898947474267926
+    pos 0.4572931487683036
+    cpu 76
+    max_cpu 76
   ]
   node [
-    id 68
-    label "68"
-    pos 0.48834696483598306
-    pos 0.4143041420461613
-    cpu 69
-    max_cpu 69
+    id 19
+    label "19"
+    pos 0.8471728396095223
+    pos 0.38664060749562534
+    cpu 94
+    max_cpu 94
   ]
   node [
-    id 69
-    label "69"
-    pos 0.0681972944581637
-    pos 0.9952240426283353
-    cpu 74
-    max_cpu 74
-  ]
-  node [
-    id 70
-    label "70"
-    pos 0.11097284668544827
-    pos 0.08403384069550424
-    cpu 98
-    max_cpu 98
-  ]
-  node [
-    id 71
-    label "71"
-    pos 0.9741340492182052
-    pos 0.54760278683141
-    cpu 61
-    max_cpu 61
-  ]
-  node [
-    id 72
-    label "72"
-    pos 0.8664332192000235
-    pos 0.8073463675779148
-    cpu 93
-    max_cpu 93
-  ]
-  node [
-    id 73
-    label "73"
-    pos 0.7690913198438356
-    pos 0.5257260982708274
+    id 20
+    label "20"
+    pos 0.8193862833591027
+    pos 0.8708281121571726
     cpu 57
     max_cpu 57
   ]
   node [
-    id 74
-    label "74"
-    pos 0.8752408713588098
-    pos 0.17628503885132962
-    cpu 74
-    max_cpu 74
+    id 21
+    label "21"
+    pos 0.6487290338342036
+    pos 0.26857199017464173
+    cpu 98
+    max_cpu 98
   ]
   node [
-    id 75
-    label "75"
-    pos 0.3335804684808158
-    pos 0.10181753941013383
+    id 22
+    label "22"
+    pos 0.4555534150578603
+    pos 0.20793992369885506
+    cpu 62
+    max_cpu 62
+  ]
+  node [
+    id 23
+    label "23"
+    pos 0.33414917888492235
+    pos 0.7445453795513141
+    cpu 78
+    max_cpu 78
+  ]
+  node [
+    id 24
+    label "24"
+    pos 0.24213176965592798
+    pos 0.09801077237075395
+    cpu 78
+    max_cpu 78
+  ]
+  node [
+    id 25
+    label "25"
+    pos 0.4993183124331734
+    pos 0.4526649840072611
+    cpu 99
+    max_cpu 99
+  ]
+  node [
+    id 26
+    label "26"
+    pos 0.8023787941897625
+    pos 0.8288880586330523
+    cpu 58
+    max_cpu 58
+  ]
+  node [
+    id 27
+    label "27"
+    pos 0.4228287967048314
+    pos 0.14844880664652982
+    cpu 88
+    max_cpu 88
+  ]
+  node [
+    id 28
+    label "28"
+    pos 0.5397633679983642
+    pos 0.9844870994095103
+    cpu 68
+    max_cpu 68
+  ]
+  node [
+    id 29
+    label "29"
+    pos 0.438574652146543
+    pos 0.06016972547660182
+    cpu 91
+    max_cpu 91
+  ]
+  node [
+    id 30
+    label "30"
+    pos 0.35657225511369495
+    pos 0.13106969759728448
+    cpu 94
+    max_cpu 94
+  ]
+  node [
+    id 31
+    label "31"
+    pos 0.2579277621022358
+    pos 0.2072527884104488
+    cpu 78
+    max_cpu 78
+  ]
+  node [
+    id 32
+    label "32"
+    pos 0.7420991348355332
+    pos 0.2559861147224183
+    cpu 60
+    max_cpu 60
+  ]
+  node [
+    id 33
+    label "33"
+    pos 0.6396085936576601
+    pos 0.17688305373238478
+    cpu 62
+    max_cpu 62
+  ]
+  node [
+    id 34
+    label "34"
+    pos 0.5285953968401852
+    pos 0.56241328492547
+    cpu 57
+    max_cpu 57
+  ]
+  node [
+    id 35
+    label "35"
+    pos 0.8064805734999537
+    pos 0.6279322821962663
+    cpu 99
+    max_cpu 99
+  ]
+  node [
+    id 36
+    label "36"
+    pos 0.5300308257659341
+    pos 0.4563945849350879
     cpu 61
     max_cpu 61
   ]
   node [
-    id 76
-    label "76"
-    pos 0.47720200360571996
-    pos 0.5172507001058005
+    id 37
+    label "37"
+    pos 0.2747647902292927
+    pos 0.9268039837945681
+    cpu 90
+    max_cpu 90
+  ]
+  node [
+    id 38
+    label "38"
+    pos 0.4994489935838681
+    pos 0.2461129984434255
+    cpu 91
+    max_cpu 91
+  ]
+  node [
+    id 39
+    label "39"
+    pos 0.798910321582044
+    pos 0.602125784312266
+    cpu 65
+    max_cpu 65
+  ]
+  node [
+    id 40
+    label "40"
+    pos 0.5961537996536399
+    pos 0.8476389752527916
+    cpu 85
+    max_cpu 85
+  ]
+  node [
+    id 41
+    label "41"
+    pos 0.730145756929478
+    pos 0.6978462695085951
+    cpu 71
+    max_cpu 71
+  ]
+  node [
+    id 42
+    label "42"
+    pos 0.5700621890024019
+    pos 0.1071974244099485
+    cpu 90
+    max_cpu 90
+  ]
+  node [
+    id 43
+    label "43"
+    pos 0.8531004082201133
+    pos 0.0629168587711817
+    cpu 82
+    max_cpu 82
+  ]
+  node [
+    id 44
+    label "44"
+    pos 0.12645702248110713
+    pos 0.8406423109022322
+    cpu 68
+    max_cpu 68
+  ]
+  node [
+    id 45
+    label "45"
+    pos 0.14034463995957536
+    pos 0.4855639553413461
+    cpu 83
+    max_cpu 83
+  ]
+  node [
+    id 46
+    label "46"
+    pos 0.25905132434040024
+    pos 0.9524560639938107
+    cpu 68
+    max_cpu 68
+  ]
+  node [
+    id 47
+    label "47"
+    pos 0.2249976684209095
+    pos 0.08545411973717709
+    cpu 50
+    max_cpu 50
+  ]
+  node [
+    id 48
+    label "48"
+    pos 0.5272421061548751
+    pos 0.2140789901260446
+    cpu 84
+    max_cpu 84
+  ]
+  node [
+    id 49
+    label "49"
+    pos 0.6944251642993329
+    pos 0.5619411084172188
+    cpu 53
+    max_cpu 53
+  ]
+  node [
+    id 50
+    label "50"
+    pos 0.5609998419809373
+    pos 0.347482885424509
+    cpu 72
+    max_cpu 72
+  ]
+  node [
+    id 51
+    label "51"
+    pos 0.035161333417802254
+    pos 0.47249368375796075
+    cpu 79
+    max_cpu 79
+  ]
+  node [
+    id 52
+    label "52"
+    pos 0.12194002146451566
+    pos 0.07342233037291279
+    cpu 93
+    max_cpu 93
+  ]
+  node [
+    id 53
+    label "53"
+    pos 0.007600554793535941
+    pos 0.17994709890289473
     cpu 75
     max_cpu 75
   ]
   node [
+    id 54
+    label "54"
+    pos 0.24639412621859336
+    pos 0.5675364388077117
+    cpu 61
+    max_cpu 61
+  ]
+  node [
+    id 55
+    label "55"
+    pos 0.8734119104365482
+    pos 0.2147345612943684
+    cpu 74
+    max_cpu 74
+  ]
+  node [
+    id 56
+    label "56"
+    pos 0.011516210740828425
+    pos 0.8799322382715125
+    cpu 100
+    max_cpu 100
+  ]
+  node [
+    id 57
+    label "57"
+    pos 0.2762763700830777
+    pos 0.24788072918793758
+    cpu 68
+    max_cpu 68
+  ]
+  node [
+    id 58
+    label "58"
+    pos 0.2493217152556091
+    pos 0.112751123591188
+    cpu 55
+    max_cpu 55
+  ]
+  node [
+    id 59
+    label "59"
+    pos 0.22281006161240713
+    pos 0.23344654738026582
+    cpu 78
+    max_cpu 78
+  ]
+  node [
+    id 60
+    label "60"
+    pos 0.39464851022840974
+    pos 0.8971837569339947
+    cpu 96
+    max_cpu 96
+  ]
+  node [
+    id 61
+    label "61"
+    pos 0.18478036178899282
+    pos 0.8346614239848317
+    cpu 92
+    max_cpu 92
+  ]
+  node [
+    id 62
+    label "62"
+    pos 0.3810632503400726
+    pos 0.2288216918522975
+    cpu 89
+    max_cpu 89
+  ]
+  node [
+    id 63
+    label "63"
+    pos 0.6529459028512544
+    pos 0.49388557208006456
+    cpu 62
+    max_cpu 62
+  ]
+  node [
+    id 64
+    label "64"
+    pos 0.6707061136004004
+    pos 0.6786993676742489
+    cpu 65
+    max_cpu 65
+  ]
+  node [
+    id 65
+    label "65"
+    pos 0.007161652252063222
+    pos 0.5153375463473531
+    cpu 72
+    max_cpu 72
+  ]
+  node [
+    id 66
+    label "66"
+    pos 0.32078865647514476
+    pos 0.6644345960939322
+    cpu 93
+    max_cpu 93
+  ]
+  node [
+    id 67
+    label "67"
+    pos 0.4507737735547981
+    pos 0.766802881622086
+    cpu 58
+    max_cpu 58
+  ]
+  node [
+    id 68
+    label "68"
+    pos 0.13161943616252514
+    pos 0.6288436308050634
+    cpu 56
+    max_cpu 56
+  ]
+  node [
+    id 69
+    label "69"
+    pos 0.4363294494326797
+    pos 0.08536154940852625
+    cpu 61
+    max_cpu 61
+  ]
+  node [
+    id 70
+    label "70"
+    pos 0.7942482846544828
+    pos 0.4206634207038138
+    cpu 68
+    max_cpu 68
+  ]
+  node [
+    id 71
+    label "71"
+    pos 0.27623709707099786
+    pos 0.03484806827162801
+    cpu 52
+    max_cpu 52
+  ]
+  node [
+    id 72
+    label "72"
+    pos 0.4958256755315742
+    pos 0.3203180052020048
+    cpu 54
+    max_cpu 54
+  ]
+  node [
+    id 73
+    label "73"
+    pos 0.1576114018504814
+    pos 0.8431300682531185
+    cpu 83
+    max_cpu 83
+  ]
+  node [
+    id 74
+    label "74"
+    pos 0.807562859256747
+    pos 0.37717930693729096
+    cpu 88
+    max_cpu 88
+  ]
+  node [
+    id 75
+    label "75"
+    pos 0.47380745365676635
+    pos 0.1729848741281269
+    cpu 64
+    max_cpu 64
+  ]
+  node [
+    id 76
+    label "76"
+    pos 0.7753674807355735
+    pos 0.29271710496911385
+    cpu 64
+    max_cpu 64
+  ]
+  node [
     id 77
     label "77"
-    pos 0.49277585267575863
-    pos 0.9512272545140376
-    cpu 50
-    max_cpu 50
+    pos 0.5364993926665284
+    pos 0.17483523588345418
+    cpu 61
+    max_cpu 61
   ]
   node [
     id 78
     label "78"
-    pos 0.5596451136557512
-    pos 0.7612387758608314
-    cpu 50
-    max_cpu 50
+    pos 0.0684155307771186
+    pos 0.4306185829194984
+    cpu 94
+    max_cpu 94
   ]
   node [
     id 79
     label "79"
-    pos 0.21513404942117453
-    pos 0.7325200932026957
+    pos 0.010522552292884457
+    pos 0.6961411897460307
     cpu 55
     max_cpu 55
   ]
   node [
     id 80
     label "80"
-    pos 0.23534917582219816
-    pos 0.4353468451185428
-    cpu 80
-    max_cpu 80
+    pos 0.13136941925505785
+    pos 0.5668248297135774
+    cpu 86
+    max_cpu 86
   ]
   node [
     id 81
     label "81"
-    pos 0.1260287311574949
-    pos 0.5580284808752651
-    cpu 97
-    max_cpu 97
-  ]
-  node [
-    id 82
-    label "82"
-    pos 0.6469320737587368
-    pos 0.24239113488520425
-    cpu 50
-    max_cpu 50
-  ]
-  node [
-    id 83
-    label "83"
-    pos 0.9272473328295884
-    pos 0.37555712013877984
-    cpu 87
-    max_cpu 87
-  ]
-  node [
-    id 84
-    label "84"
-    pos 0.00856609587682422
-    pos 0.37743603356052413
-    cpu 76
-    max_cpu 76
-  ]
-  node [
-    id 85
-    label "85"
-    pos 0.9084755247287453
-    pos 0.7547071747005782
-    cpu 90
-    max_cpu 90
-  ]
-  node [
-    id 86
-    label "86"
-    pos 0.8568211372828648
-    pos 0.0043391193046382615
-    cpu 87
-    max_cpu 87
-  ]
-  node [
-    id 87
-    label "87"
-    pos 0.3413166526049627
-    pos 0.8236188847908188
-    cpu 77
-    max_cpu 77
-  ]
-  node [
-    id 88
-    label "88"
-    pos 0.9992123774623834
-    pos 0.7535265019346639
+    pos 0.8443253787226838
+    pos 0.5272433001534118
     cpu 54
     max_cpu 54
   ]
   node [
-    id 89
-    label "89"
-    pos 0.9106823645620304
-    pos 0.8341837962196087
-    cpu 69
-    max_cpu 69
+    id 82
+    label "82"
+    pos 0.02217401224195026
+    pos 0.5455249517975633
+    cpu 74
+    max_cpu 74
   ]
   node [
-    id 90
-    label "90"
-    pos 0.9090431682741179
-    pos 0.01727026048505209
-    cpu 81
-    max_cpu 81
+    id 83
+    label "83"
+    pos 0.38489254168169706
+    pos 0.419901753933537
+    cpu 100
+    max_cpu 100
   ]
   node [
-    id 91
-    label "91"
-    pos 0.790600652476429
-    pos 0.43320325929735315
-    cpu 65
-    max_cpu 65
+    id 84
+    label "84"
+    pos 0.5046132155064458
+    pos 0.0060518384956324
+    cpu 58
+    max_cpu 58
   ]
   node [
-    id 92
-    label "92"
-    pos 0.8869086971816944
-    pos 0.498817883895152
-    cpu 64
-    max_cpu 64
+    id 85
+    label "85"
+    pos 0.32095495133352503
+    pos 0.6574190815170783
+    cpu 96
+    max_cpu 96
   ]
   node [
-    id 93
-    label "93"
-    pos 0.699130497894171
-    pos 0.20846605847240174
+    id 86
+    label "86"
+    pos 0.01761148124889944
+    pos 0.4561975507429038
+    cpu 53
+    max_cpu 53
+  ]
+  node [
+    id 87
+    label "87"
+    pos 0.9761741378270973
+    pos 0.007770003699670847
+    cpu 95
+    max_cpu 95
+  ]
+  node [
+    id 88
+    label "88"
+    pos 0.07740084612152509
+    pos 0.5004791792632342
     cpu 51
     max_cpu 51
   ]
   node [
+    id 89
+    label "89"
+    pos 0.3063644856442105
+    pos 0.8430102045138258
+    cpu 68
+    max_cpu 68
+  ]
+  node [
+    id 90
+    label "90"
+    pos 0.9526789136828021
+    pos 0.1722971043785616
+    cpu 52
+    max_cpu 52
+  ]
+  node [
+    id 91
+    label "91"
+    pos 0.5069642923575117
+    pos 0.24545113908781924
+    cpu 57
+    max_cpu 57
+  ]
+  node [
+    id 92
+    label "92"
+    pos 0.7378744662353777
+    pos 0.21971906034950717
+    cpu 94
+    max_cpu 94
+  ]
+  node [
+    id 93
+    label "93"
+    pos 0.4248375119573502
+    pos 0.1040317834126131
+    cpu 100
+    max_cpu 100
+  ]
+  node [
     id 94
     label "94"
-    pos 0.29089970307962365
-    pos 0.46256935814244127
-    cpu 60
-    max_cpu 60
+    pos 0.249537995059542
+    pos 0.8219792449074247
+    cpu 75
+    max_cpu 75
   ]
   node [
     id 95
     label "95"
-    pos 0.01820416895507304
-    pos 0.33047376414979523
-    cpu 73
-    max_cpu 73
+    pos 0.6021961769414985
+    pos 0.5206255094958794
+    cpu 93
+    max_cpu 93
   ]
   node [
     id 96
     label "96"
-    pos 0.8543611343807992
-    pos 0.5180116558394663
-    cpu 56
-    max_cpu 56
+    pos 0.08372434984461974
+    pos 0.03332759858772816
+    cpu 75
+    max_cpu 75
   ]
   node [
     id 97
     label "97"
-    pos 0.17398695220987492
-    pos 0.7858630612975456
-    cpu 73
-    max_cpu 73
+    pos 0.8022087652005068
+    pos 0.6667639794812866
+    cpu 68
+    max_cpu 68
   ]
   node [
     id 98
     label "98"
-    pos 0.11975215637180081
-    pos 0.6697366831438171
-    cpu 69
-    max_cpu 69
+    pos 0.9692725894578396
+    pos 0.2312211826035604
+    cpu 56
+    max_cpu 56
   ]
   node [
     id 99
     label "99"
-    pos 0.8995053678556715
-    pos 0.8978518131504594
-    cpu 55
-    max_cpu 55
+    pos 0.2239419981561772
+    pos 0.7145170727530481
+    cpu 81
+    max_cpu 81
   ]
   edge [
     source 0
+    target 8
+    bw 81
+    max_bw 81
+  ]
+  edge [
+    source 0
+    target 22
+    bw 88
+    max_bw 88
+  ]
+  edge [
+    source 0
+    target 24
+    bw 100
+    max_bw 100
+  ]
+  edge [
+    source 0
+    target 26
+    bw 91
+    max_bw 91
+  ]
+  edge [
+    source 0
+    target 39
+    bw 76
+    max_bw 76
+  ]
+  edge [
+    source 0
+    target 58
+    bw 71
+    max_bw 71
+  ]
+  edge [
+    source 0
+    target 62
+    bw 75
+    max_bw 75
+  ]
+  edge [
+    source 0
+    target 70
+    bw 50
+    max_bw 50
+  ]
+  edge [
+    source 0
+    target 86
+    bw 83
+    max_bw 83
+  ]
+  edge [
+    source 0
+    target 88
+    bw 52
+    max_bw 52
+  ]
+  edge [
+    source 0
+    target 91
+    bw 79
+    max_bw 79
+  ]
+  edge [
+    source 0
+    target 96
+    bw 70
+    max_bw 70
+  ]
+  edge [
+    source 1
+    target 18
+    bw 72
+    max_bw 72
+  ]
+  edge [
+    source 1
+    target 37
+    bw 59
+    max_bw 59
+  ]
+  edge [
+    source 1
+    target 44
+    bw 57
+    max_bw 57
+  ]
+  edge [
+    source 1
+    target 51
+    bw 64
+    max_bw 64
+  ]
+  edge [
+    source 1
+    target 54
+    bw 95
+    max_bw 95
+  ]
+  edge [
+    source 1
+    target 64
+    bw 79
+    max_bw 79
+  ]
+  edge [
+    source 1
+    target 83
+    bw 75
+    max_bw 75
+  ]
+  edge [
+    source 2
+    target 4
+    bw 51
+    max_bw 51
+  ]
+  edge [
+    source 2
+    target 14
+    bw 52
+    max_bw 52
+  ]
+  edge [
+    source 2
+    target 30
+    bw 88
+    max_bw 88
+  ]
+  edge [
+    source 2
+    target 36
+    bw 51
+    max_bw 51
+  ]
+  edge [
+    source 2
+    target 48
+    bw 87
+    max_bw 87
+  ]
+  edge [
+    source 2
+    target 50
+    bw 70
+    max_bw 70
+  ]
+  edge [
+    source 2
+    target 55
+    bw 80
+    max_bw 80
+  ]
+  edge [
+    source 2
+    target 57
+    bw 81
+    max_bw 81
+  ]
+  edge [
+    source 3
     target 6
-    bw 73
-    max_bw 73
+    bw 59
+    max_bw 59
   ]
   edge [
-    source 0
+    source 3
+    target 21
+    bw 78
+    max_bw 78
+  ]
+  edge [
+    source 3
+    target 28
+    bw 87
+    max_bw 87
+  ]
+  edge [
+    source 3
+    target 33
+    bw 89
+    max_bw 89
+  ]
+  edge [
+    source 3
+    target 38
+    bw 60
+    max_bw 60
+  ]
+  edge [
+    source 3
+    target 60
+    bw 97
+    max_bw 97
+  ]
+  edge [
+    source 4
     target 12
     bw 69
     max_bw 69
   ]
   edge [
-    source 0
-    target 13
-    bw 59
-    max_bw 59
+    source 4
+    target 19
+    bw 66
+    max_bw 66
   ]
   edge [
-    source 0
-    target 41
-    bw 58
-    max_bw 58
+    source 4
+    target 43
+    bw 66
+    max_bw 66
   ]
   edge [
-    source 0
-    target 46
-    bw 58
-    max_bw 58
-  ]
-  edge [
-    source 0
-    target 47
-    bw 96
-    max_bw 96
-  ]
-  edge [
-    source 0
-    target 68
-    bw 73
-    max_bw 73
-  ]
-  edge [
-    source 0
-    target 98
-    bw 51
-    max_bw 51
-  ]
-  edge [
-    source 1
-    target 21
-    bw 81
-    max_bw 81
-  ]
-  edge [
-    source 1
-    target 22
+    source 4
+    target 70
     bw 57
     max_bw 57
   ]
   edge [
-    source 1
-    target 41
-    bw 52
-    max_bw 52
-  ]
-  edge [
-    source 1
-    target 46
-    bw 53
-    max_bw 53
-  ]
-  edge [
-    source 1
-    target 54
-    bw 63
-    max_bw 63
-  ]
-  edge [
-    source 1
-    target 65
-    bw 60
-    max_bw 60
-  ]
-  edge [
-    source 1
-    target 66
-    bw 64
-    max_bw 64
-  ]
-  edge [
-    source 1
-    target 71
-    bw 94
-    max_bw 94
-  ]
-  edge [
-    source 1
-    target 77
-    bw 69
-    max_bw 69
-  ]
-  edge [
-    source 1
-    target 79
-    bw 69
-    max_bw 69
-  ]
-  edge [
-    source 1
-    target 87
-    bw 79
-    max_bw 79
-  ]
-  edge [
-    source 1
-    target 94
-    bw 97
-    max_bw 97
-  ]
-  edge [
-    source 1
-    target 95
-    bw 66
-    max_bw 66
-  ]
-  edge [
-    source 1
-    target 98
-    bw 95
-    max_bw 95
-  ]
-  edge [
-    source 2
-    target 6
-    bw 73
-    max_bw 73
-  ]
-  edge [
-    source 2
-    target 8
-    bw 55
-    max_bw 55
-  ]
-  edge [
-    source 2
-    target 11
-    bw 66
-    max_bw 66
-  ]
-  edge [
-    source 2
-    target 18
-    bw 64
-    max_bw 64
-  ]
-  edge [
-    source 2
-    target 38
-    bw 59
-    max_bw 59
-  ]
-  edge [
-    source 2
-    target 49
-    bw 69
-    max_bw 69
-  ]
-  edge [
-    source 2
-    target 55
-    bw 100
-    max_bw 100
-  ]
-  edge [
-    source 2
-    target 83
-    bw 89
-    max_bw 89
-  ]
-  edge [
-    source 3
-    target 11
-    bw 73
-    max_bw 73
-  ]
-  edge [
-    source 3
-    target 37
-    bw 53
-    max_bw 53
-  ]
-  edge [
-    source 3
-    target 56
-    bw 90
-    max_bw 90
-  ]
-  edge [
-    source 3
-    target 97
-    bw 90
-    max_bw 90
-  ]
-  edge [
-    source 4
-    target 58
-    bw 67
-    max_bw 67
-  ]
-  edge [
-    source 4
-    target 81
-    bw 87
-    max_bw 87
-  ]
-  edge [
-    source 4
-    target 85
-    bw 96
-    max_bw 96
-  ]
-  edge [
-    source 4
-    target 93
-    bw 84
-    max_bw 84
-  ]
-  edge [
     source 5
-    target 9
-    bw 54
-    max_bw 54
-  ]
-  edge [
-    source 5
-    target 14
-    bw 100
-    max_bw 100
-  ]
-  edge [
-    source 5
-    target 17
-    bw 83
-    max_bw 83
-  ]
-  edge [
-    source 5
-    target 34
-    bw 79
-    max_bw 79
-  ]
-  edge [
-    source 5
-    target 60
-    bw 83
-    max_bw 83
-  ]
-  edge [
-    source 5
-    target 77
-    bw 91
-    max_bw 91
-  ]
-  edge [
-    source 5
-    target 91
-    bw 78
-    max_bw 78
-  ]
-  edge [
-    source 5
-    target 92
-    bw 61
-    max_bw 61
-  ]
-  edge [
-    source 6
     target 7
-    bw 79
-    max_bw 79
-  ]
-  edge [
-    source 6
-    target 9
-    bw 100
-    max_bw 100
-  ]
-  edge [
-    source 6
-    target 38
-    bw 51
-    max_bw 51
-  ]
-  edge [
-    source 6
-    target 43
-    bw 98
-    max_bw 98
-  ]
-  edge [
-    source 6
-    target 51
-    bw 71
-    max_bw 71
-  ]
-  edge [
-    source 6
-    target 81
-    bw 54
-    max_bw 54
-  ]
-  edge [
-    source 6
-    target 93
-    bw 51
-    max_bw 51
-  ]
-  edge [
-    source 7
-    target 20
-    bw 91
-    max_bw 91
-  ]
-  edge [
-    source 7
-    target 30
-    bw 97
-    max_bw 97
-  ]
-  edge [
-    source 7
-    target 48
-    bw 79
-    max_bw 79
-  ]
-  edge [
-    source 7
-    target 60
-    bw 84
-    max_bw 84
-  ]
-  edge [
-    source 7
-    target 61
-    bw 61
-    max_bw 61
-  ]
-  edge [
-    source 7
-    target 68
-    bw 81
-    max_bw 81
-  ]
-  edge [
-    source 7
-    target 73
-    bw 67
-    max_bw 67
-  ]
-  edge [
-    source 7
-    target 76
-    bw 58
-    max_bw 58
-  ]
-  edge [
-    source 7
-    target 82
-    bw 88
-    max_bw 88
-  ]
-  edge [
-    source 7
-    target 97
-    bw 89
-    max_bw 89
-  ]
-  edge [
-    source 8
-    target 26
-    bw 96
-    max_bw 96
-  ]
-  edge [
-    source 8
-    target 39
-    bw 78
-    max_bw 78
-  ]
-  edge [
-    source 8
-    target 51
-    bw 52
-    max_bw 52
-  ]
-  edge [
-    source 8
-    target 57
-    bw 100
-    max_bw 100
-  ]
-  edge [
-    source 8
-    target 58
-    bw 100
-    max_bw 100
-  ]
-  edge [
-    source 8
-    target 59
-    bw 85
-    max_bw 85
-  ]
-  edge [
-    source 8
-    target 82
-    bw 67
-    max_bw 67
-  ]
-  edge [
-    source 8
-    target 93
-    bw 91
-    max_bw 91
-  ]
-  edge [
-    source 8
-    target 94
-    bw 91
-    max_bw 91
-  ]
-  edge [
-    source 9
-    target 14
-    bw 84
-    max_bw 84
-  ]
-  edge [
-    source 9
-    target 51
-    bw 84
-    max_bw 84
-  ]
-  edge [
-    source 9
-    target 70
-    bw 69
-    max_bw 69
-  ]
-  edge [
-    source 9
-    target 74
-    bw 87
-    max_bw 87
-  ]
-  edge [
-    source 9
-    target 76
-    bw 54
-    max_bw 54
-  ]
-  edge [
-    source 9
-    target 84
     bw 65
     max_bw 65
   ]
   edge [
-    source 9
-    target 92
+    source 5
+    target 12
+    bw 68
+    max_bw 68
+  ]
+  edge [
+    source 5
+    target 15
+    bw 86
+    max_bw 86
+  ]
+  edge [
+    source 5
+    target 37
+    bw 64
+    max_bw 64
+  ]
+  edge [
+    source 5
+    target 76
+    bw 87
+    max_bw 87
+  ]
+  edge [
+    source 5
+    target 81
+    bw 89
+    max_bw 89
+  ]
+  edge [
+    source 5
+    target 82
+    bw 95
+    max_bw 95
+  ]
+  edge [
+    source 6
+    target 38
+    bw 99
+    max_bw 99
+  ]
+  edge [
+    source 6
+    target 40
+    bw 62
+    max_bw 62
+  ]
+  edge [
+    source 6
+    target 46
+    bw 66
+    max_bw 66
+  ]
+  edge [
+    source 6
+    target 48
+    bw 62
+    max_bw 62
+  ]
+  edge [
+    source 6
+    target 71
+    bw 75
+    max_bw 75
+  ]
+  edge [
+    source 7
+    target 8
+    bw 87
+    max_bw 87
+  ]
+  edge [
+    source 7
+    target 12
+    bw 71
+    max_bw 71
+  ]
+  edge [
+    source 7
+    target 39
+    bw 83
+    max_bw 83
+  ]
+  edge [
+    source 7
+    target 60
+    bw 68
+    max_bw 68
+  ]
+  edge [
+    source 7
+    target 63
+    bw 86
+    max_bw 86
+  ]
+  edge [
+    source 7
+    target 89
     bw 97
     max_bw 97
   ]
   edge [
+    source 7
+    target 98
+    bw 60
+    max_bw 60
+  ]
+  edge [
+    source 8
+    target 36
+    bw 90
+    max_bw 90
+  ]
+  edge [
+    source 8
+    target 39
+    bw 88
+    max_bw 88
+  ]
+  edge [
+    source 8
+    target 57
+    bw 53
+    max_bw 53
+  ]
+  edge [
+    source 8
+    target 66
+    bw 93
+    max_bw 93
+  ]
+  edge [
+    source 8
+    target 78
+    bw 58
+    max_bw 58
+  ]
+  edge [
+    source 8
+    target 86
+    bw 67
+    max_bw 67
+  ]
+  edge [
     source 9
-    target 94
-    bw 91
-    max_bw 91
+    target 19
+    bw 68
+    max_bw 68
+  ]
+  edge [
+    source 9
+    target 47
+    bw 98
+    max_bw 98
+  ]
+  edge [
+    source 9
+    target 51
+    bw 61
+    max_bw 61
+  ]
+  edge [
+    source 9
+    target 56
+    bw 85
+    max_bw 85
+  ]
+  edge [
+    source 9
+    target 61
+    bw 59
+    max_bw 59
+  ]
+  edge [
+    source 9
+    target 66
+    bw 92
+    max_bw 92
+  ]
+  edge [
+    source 9
+    target 67
+    bw 89
+    max_bw 89
+  ]
+  edge [
+    source 9
+    target 77
+    bw 66
+    max_bw 66
+  ]
+  edge [
+    source 9
+    target 85
+    bw 56
+    max_bw 56
   ]
   edge [
     source 10
-    target 16
-    bw 95
-    max_bw 95
+    target 14
+    bw 79
+    max_bw 79
+  ]
+  edge [
+    source 10
+    target 18
+    bw 89
+    max_bw 89
   ]
   edge [
     source 10
@@ -1331,2058 +1283,2478 @@ graph [
   ]
   edge [
     source 10
-    target 52
+    target 34
+    bw 51
+    max_bw 51
+  ]
+  edge [
+    source 10
+    target 38
     bw 74
     max_bw 74
   ]
   edge [
     source 10
-    target 59
-    bw 91
-    max_bw 91
+    target 45
+    bw 80
+    max_bw 80
   ]
   edge [
     source 10
-    target 91
-    bw 61
-    max_bw 61
+    target 63
+    bw 77
+    max_bw 77
   ]
   edge [
     source 11
-    target 24
-    bw 95
-    max_bw 95
+    target 21
+    bw 56
+    max_bw 56
   ]
   edge [
     source 11
-    target 33
+    target 38
+    bw 50
+    max_bw 50
+  ]
+  edge [
+    source 11
+    target 44
     bw 98
     max_bw 98
   ]
   edge [
     source 11
-    target 35
-    bw 99
-    max_bw 99
-  ]
-  edge [
-    source 11
-    target 42
-    bw 63
-    max_bw 63
-  ]
-  edge [
-    source 11
     target 50
-    bw 67
-    max_bw 67
+    bw 55
+    max_bw 55
   ]
   edge [
     source 11
-    target 58
-    bw 69
-    max_bw 69
+    target 53
+    bw 75
+    max_bw 75
   ]
   edge [
     source 11
-    target 62
-    bw 80
-    max_bw 80
+    target 76
+    bw 70
+    max_bw 70
+  ]
+  edge [
+    source 11
+    target 83
+    bw 100
+    max_bw 100
+  ]
+  edge [
+    source 11
+    target 91
+    bw 72
+    max_bw 72
   ]
   edge [
     source 11
     target 95
-    bw 94
-    max_bw 94
-  ]
-  edge [
-    source 11
-    target 97
-    bw 90
-    max_bw 90
-  ]
-  edge [
-    source 11
-    target 99
-    bw 90
-    max_bw 90
-  ]
-  edge [
-    source 12
-    target 21
-    bw 97
-    max_bw 97
-  ]
-  edge [
-    source 12
-    target 30
-    bw 65
-    max_bw 65
-  ]
-  edge [
-    source 12
-    target 52
-    bw 95
-    max_bw 95
-  ]
-  edge [
-    source 12
-    target 73
     bw 86
     max_bw 86
   ]
   edge [
     source 12
-    target 75
+    target 23
+    bw 76
+    max_bw 76
+  ]
+  edge [
+    source 12
+    target 28
+    bw 96
+    max_bw 96
+  ]
+  edge [
+    source 12
+    target 56
+    bw 63
+    max_bw 63
+  ]
+  edge [
+    source 12
+    target 80
+    bw 82
+    max_bw 82
+  ]
+  edge [
+    source 12
+    target 85
+    bw 56
+    max_bw 56
+  ]
+  edge [
+    source 12
+    target 94
     bw 62
     max_bw 62
   ]
   edge [
     source 12
-    target 94
-    bw 98
-    max_bw 98
-  ]
-  edge [
-    source 12
-    target 98
-    bw 87
-    max_bw 87
+    target 97
+    bw 51
+    max_bw 51
   ]
   edge [
     source 13
-    target 27
-    bw 58
-    max_bw 58
-  ]
-  edge [
-    source 13
-    target 36
-    bw 52
-    max_bw 52
+    target 22
+    bw 61
+    max_bw 61
   ]
   edge [
     source 13
     target 37
-    bw 98
-    max_bw 98
+    bw 100
+    max_bw 100
   ]
   edge [
     source 13
     target 40
-    bw 74
-    max_bw 74
+    bw 64
+    max_bw 64
   ]
   edge [
     source 13
-    target 65
-    bw 99
-    max_bw 99
+    target 41
+    bw 91
+    max_bw 91
   ]
   edge [
     source 13
-    target 70
+    target 45
     bw 55
     max_bw 55
   ]
   edge [
     source 13
-    target 95
-    bw 86
-    max_bw 86
+    target 50
+    bw 80
+    max_bw 80
+  ]
+  edge [
+    source 13
+    target 70
+    bw 76
+    max_bw 76
+  ]
+  edge [
+    source 13
+    target 79
+    bw 98
+    max_bw 98
+  ]
+  edge [
+    source 13
+    target 89
+    bw 85
+    max_bw 85
   ]
   edge [
     source 14
     target 15
-    bw 60
-    max_bw 60
+    bw 69
+    max_bw 69
   ]
   edge [
     source 14
     target 17
-    bw 98
-    max_bw 98
+    bw 69
+    max_bw 69
   ]
   edge [
     source 14
     target 19
-    bw 100
-    max_bw 100
+    bw 70
+    max_bw 70
   ]
   edge [
     source 14
-    target 33
-    bw 94
-    max_bw 94
+    target 23
+    bw 99
+    max_bw 99
   ]
   edge [
     source 14
-    target 36
-    bw 60
-    max_bw 60
-  ]
-  edge [
-    source 14
-    target 39
+    target 29
     bw 73
     max_bw 73
   ]
   edge [
     source 14
-    target 41
-    bw 79
-    max_bw 79
+    target 32
+    bw 80
+    max_bw 80
   ]
   edge [
     source 14
     target 44
-    bw 59
-    max_bw 59
+    bw 60
+    max_bw 60
   ]
   edge [
     source 14
-    target 47
-    bw 51
-    max_bw 51
+    target 49
+    bw 94
+    max_bw 94
   ]
   edge [
     source 14
-    target 51
-    bw 86
-    max_bw 86
+    target 50
+    bw 73
+    max_bw 73
   ]
   edge [
     source 14
-    target 54
-    bw 96
-    max_bw 96
-  ]
-  edge [
-    source 14
-    target 56
-    bw 87
-    max_bw 87
-  ]
-  edge [
-    source 14
-    target 57
-    bw 67
-    max_bw 67
-  ]
-  edge [
-    source 14
-    target 60
-    bw 66
-    max_bw 66
-  ]
-  edge [
-    source 14
-    target 67
+    target 53
     bw 65
     max_bw 65
   ]
   edge [
     source 14
-    target 73
-    bw 86
-    max_bw 86
+    target 61
+    bw 58
+    max_bw 58
   ]
   edge [
     source 14
-    target 80
-    bw 91
-    max_bw 91
+    target 68
+    bw 70
+    max_bw 70
+  ]
+  edge [
+    source 14
+    target 75
+    bw 68
+    max_bw 68
+  ]
+  edge [
+    source 14
+    target 79
+    bw 55
+    max_bw 55
   ]
   edge [
     source 14
     target 81
-    bw 57
-    max_bw 57
+    bw 83
+    max_bw 83
   ]
   edge [
     source 14
-    target 93
-    bw 71
-    max_bw 71
+    target 97
+    bw 90
+    max_bw 90
   ]
   edge [
     source 14
-    target 94
-    bw 82
-    max_bw 82
-  ]
-  edge [
-    source 14
-    target 98
-    bw 100
-    max_bw 100
-  ]
-  edge [
-    source 15
-    target 28
-    bw 65
-    max_bw 65
-  ]
-  edge [
-    source 15
-    target 32
-    bw 51
-    max_bw 51
-  ]
-  edge [
-    source 15
-    target 46
-    bw 50
-    max_bw 50
-  ]
-  edge [
-    source 15
-    target 50
-    bw 84
-    max_bw 84
-  ]
-  edge [
-    source 15
-    target 77
+    target 99
     bw 88
     max_bw 88
   ]
   edge [
     source 15
-    target 89
-    bw 97
-    max_bw 97
+    target 35
+    bw 62
+    max_bw 62
   ]
   edge [
     source 15
-    target 97
-    bw 93
-    max_bw 93
+    target 37
+    bw 99
+    max_bw 99
   ]
   edge [
-    source 16
-    target 21
-    bw 66
-    max_bw 66
+    source 15
+    target 38
+    bw 90
+    max_bw 90
   ]
   edge [
-    source 16
-    target 27
-    bw 78
-    max_bw 78
-  ]
-  edge [
-    source 16
-    target 34
-    bw 95
-    max_bw 95
-  ]
-  edge [
-    source 16
-    target 43
-    bw 53
-    max_bw 53
-  ]
-  edge [
-    source 16
-    target 44
-    bw 98
-    max_bw 98
-  ]
-  edge [
-    source 16
-    target 60
-    bw 74
-    max_bw 74
-  ]
-  edge [
-    source 16
-    target 64
-    bw 86
-    max_bw 86
-  ]
-  edge [
-    source 16
-    target 69
-    bw 67
-    max_bw 67
-  ]
-  edge [
-    source 16
-    target 71
-    bw 87
-    max_bw 87
-  ]
-  edge [
-    source 16
-    target 79
-    bw 59
-    max_bw 59
-  ]
-  edge [
-    source 16
-    target 92
+    source 15
+    target 39
     bw 50
     max_bw 50
   ]
   edge [
-    source 17
-    target 27
+    source 15
+    target 45
+    bw 77
+    max_bw 77
+  ]
+  edge [
+    source 15
+    target 48
+    bw 53
+    max_bw 53
+  ]
+  edge [
+    source 15
+    target 60
+    bw 53
+    max_bw 53
+  ]
+  edge [
+    source 15
+    target 62
+    bw 98
+    max_bw 98
+  ]
+  edge [
+    source 15
+    target 71
+    bw 50
+    max_bw 50
+  ]
+  edge [
+    source 15
+    target 72
+    bw 54
+    max_bw 54
+  ]
+  edge [
+    source 15
+    target 76
+    bw 86
+    max_bw 86
+  ]
+  edge [
+    source 15
+    target 84
+    bw 73
+    max_bw 73
+  ]
+  edge [
+    source 15
+    target 96
+    bw 97
+    max_bw 97
+  ]
+  edge [
+    source 16
+    target 18
     bw 92
     max_bw 92
   ]
   edge [
-    source 17
-    target 28
+    source 16
+    target 24
+    bw 55
+    max_bw 55
+  ]
+  edge [
+    source 16
+    target 33
     bw 77
     max_bw 77
+  ]
+  edge [
+    source 16
+    target 38
+    bw 70
+    max_bw 70
+  ]
+  edge [
+    source 16
+    target 50
+    bw 50
+    max_bw 50
+  ]
+  edge [
+    source 16
+    target 77
+    bw 81
+    max_bw 81
+  ]
+  edge [
+    source 16
+    target 85
+    bw 59
+    max_bw 59
+  ]
+  edge [
+    source 17
+    target 25
+    bw 71
+    max_bw 71
   ]
   edge [
     source 17
     target 29
-    bw 88
-    max_bw 88
-  ]
-  edge [
-    source 17
-    target 38
-    bw 57
-    max_bw 57
-  ]
-  edge [
-    source 17
-    target 55
-    bw 52
-    max_bw 52
-  ]
-  edge [
-    source 17
-    target 58
-    bw 64
-    max_bw 64
-  ]
-  edge [
-    source 17
-    target 65
-    bw 62
-    max_bw 62
-  ]
-  edge [
-    source 17
-    target 67
-    bw 66
-    max_bw 66
-  ]
-  edge [
-    source 17
-    target 76
-    bw 71
-    max_bw 71
-  ]
-  edge [
-    source 17
-    target 80
-    bw 89
-    max_bw 89
-  ]
-  edge [
-    source 17
-    target 86
-    bw 76
-    max_bw 76
-  ]
-  edge [
-    source 17
-    target 96
-    bw 97
-    max_bw 97
-  ]
-  edge [
-    source 18
-    target 23
-    bw 78
-    max_bw 78
-  ]
-  edge [
-    source 18
-    target 35
-    bw 73
-    max_bw 73
-  ]
-  edge [
-    source 18
-    target 36
-    bw 52
-    max_bw 52
-  ]
-  edge [
-    source 18
-    target 37
-    bw 88
-    max_bw 88
-  ]
-  edge [
-    source 18
-    target 43
-    bw 73
-    max_bw 73
-  ]
-  edge [
-    source 18
-    target 60
-    bw 54
-    max_bw 54
-  ]
-  edge [
-    source 18
-    target 62
     bw 84
     max_bw 84
   ]
   edge [
-    source 18
-    target 76
-    bw 75
-    max_bw 75
-  ]
-  edge [
-    source 18
-    target 84
-    bw 98
-    max_bw 98
-  ]
-  edge [
-    source 19
-    target 57
-    bw 69
-    max_bw 69
-  ]
-  edge [
-    source 19
-    target 64
-    bw 57
-    max_bw 57
-  ]
-  edge [
-    source 19
-    target 75
-    bw 87
-    max_bw 87
-  ]
-  edge [
-    source 19
-    target 97
-    bw 68
-    max_bw 68
-  ]
-  edge [
-    source 20
-    target 26
-    bw 69
-    max_bw 69
-  ]
-  edge [
-    source 20
-    target 63
-    bw 84
-    max_bw 84
-  ]
-  edge [
-    source 20
-    target 77
-    bw 87
-    max_bw 87
-  ]
-  edge [
-    source 20
-    target 80
-    bw 63
-    max_bw 63
-  ]
-  edge [
-    source 20
-    target 87
-    bw 83
-    max_bw 83
-  ]
-  edge [
-    source 20
-    target 98
-    bw 87
-    max_bw 87
-  ]
-  edge [
-    source 21
-    target 66
-    bw 83
-    max_bw 83
-  ]
-  edge [
-    source 21
-    target 79
-    bw 75
-    max_bw 75
-  ]
-  edge [
-    source 22
-    target 48
-    bw 85
-    max_bw 85
-  ]
-  edge [
-    source 22
+    source 17
     target 51
-    bw 52
-    max_bw 52
-  ]
-  edge [
-    source 22
-    target 52
-    bw 57
-    max_bw 57
-  ]
-  edge [
-    source 22
-    target 53
-    bw 85
-    max_bw 85
-  ]
-  edge [
-    source 22
-    target 54
-    bw 55
-    max_bw 55
-  ]
-  edge [
-    source 22
-    target 61
-    bw 57
-    max_bw 57
-  ]
-  edge [
-    source 22
-    target 83
-    bw 100
-    max_bw 100
-  ]
-  edge [
-    source 23
-    target 35
-    bw 81
-    max_bw 81
-  ]
-  edge [
-    source 23
-    target 54
-    bw 72
-    max_bw 72
-  ]
-  edge [
-    source 23
-    target 58
-    bw 66
-    max_bw 66
-  ]
-  edge [
-    source 23
-    target 67
-    bw 79
-    max_bw 79
-  ]
-  edge [
-    source 23
-    target 79
-    bw 79
-    max_bw 79
-  ]
-  edge [
-    source 23
-    target 87
-    bw 78
-    max_bw 78
-  ]
-  edge [
-    source 23
-    target 98
-    bw 54
-    max_bw 54
-  ]
-  edge [
-    source 23
-    target 99
-    bw 55
-    max_bw 55
-  ]
-  edge [
-    source 24
-    target 42
-    bw 56
-    max_bw 56
-  ]
-  edge [
-    source 24
-    target 71
-    bw 69
-    max_bw 69
-  ]
-  edge [
-    source 24
-    target 75
-    bw 82
-    max_bw 82
-  ]
-  edge [
-    source 25
-    target 33
-    bw 58
-    max_bw 58
-  ]
-  edge [
-    source 25
-    target 35
-    bw 98
-    max_bw 98
-  ]
-  edge [
-    source 25
-    target 38
-    bw 92
-    max_bw 92
-  ]
-  edge [
-    source 25
-    target 46
-    bw 81
-    max_bw 81
-  ]
-  edge [
-    source 25
-    target 52
-    bw 87
-    max_bw 87
-  ]
-  edge [
-    source 25
-    target 77
-    bw 71
-    max_bw 71
-  ]
-  edge [
-    source 25
-    target 97
-    bw 50
-    max_bw 50
-  ]
-  edge [
-    source 26
-    target 47
     bw 91
     max_bw 91
   ]
   edge [
-    source 26
-    target 71
-    bw 67
-    max_bw 67
+    source 17
+    target 53
+    bw 87
+    max_bw 87
   ]
   edge [
-    source 26
-    target 92
-    bw 71
-    max_bw 71
-  ]
-  edge [
-    source 27
-    target 32
-    bw 63
-    max_bw 63
-  ]
-  edge [
-    source 27
-    target 35
-    bw 66
-    max_bw 66
-  ]
-  edge [
-    source 27
-    target 42
-    bw 72
-    max_bw 72
-  ]
-  edge [
-    source 27
+    source 17
     target 57
-    bw 90
-    max_bw 90
+    bw 52
+    max_bw 52
   ]
   edge [
-    source 27
-    target 66
-    bw 61
-    max_bw 61
-  ]
-  edge [
-    source 27
-    target 71
-    bw 70
-    max_bw 70
-  ]
-  edge [
-    source 27
-    target 80
-    bw 100
-    max_bw 100
-  ]
-  edge [
-    source 27
-    target 82
-    bw 63
-    max_bw 63
-  ]
-  edge [
-    source 27
-    target 84
-    bw 63
-    max_bw 63
-  ]
-  edge [
-    source 27
-    target 93
-    bw 80
-    max_bw 80
-  ]
-  edge [
-    source 28
-    target 37
-    bw 69
-    max_bw 69
-  ]
-  edge [
-    source 28
-    target 44
+    source 17
+    target 73
     bw 83
     max_bw 83
   ]
   edge [
-    source 28
-    target 60
-    bw 75
-    max_bw 75
+    source 17
+    target 76
+    bw 71
+    max_bw 71
   ]
   edge [
-    source 28
-    target 74
-    bw 73
-    max_bw 73
-  ]
-  edge [
-    source 28
+    source 17
     target 80
-    bw 57
-    max_bw 57
-  ]
-  edge [
-    source 29
-    target 35
     bw 95
     max_bw 95
   ]
   edge [
-    source 29
-    target 55
-    bw 62
-    max_bw 62
+    source 17
+    target 89
+    bw 99
+    max_bw 99
   ]
   edge [
-    source 29
-    target 56
-    bw 63
-    max_bw 63
+    source 17
+    target 92
+    bw 60
+    max_bw 60
   ]
   edge [
-    source 29
-    target 93
-    bw 81
-    max_bw 81
-  ]
-  edge [
-    source 30
-    target 33
-    bw 92
-    max_bw 92
-  ]
-  edge [
-    source 30
-    target 34
-    bw 69
-    max_bw 69
-  ]
-  edge [
-    source 30
-    target 40
-    bw 57
-    max_bw 57
-  ]
-  edge [
-    source 30
-    target 46
-    bw 64
-    max_bw 64
-  ]
-  edge [
-    source 30
-    target 72
-    bw 56
-    max_bw 56
-  ]
-  edge [
-    source 30
-    target 97
-    bw 87
-    max_bw 87
-  ]
-  edge [
-    source 31
-    target 33
-    bw 77
-    max_bw 77
-  ]
-  edge [
-    source 31
-    target 49
-    bw 64
-    max_bw 64
-  ]
-  edge [
-    source 31
-    target 56
-    bw 68
-    max_bw 68
-  ]
-  edge [
-    source 31
-    target 66
-    bw 85
-    max_bw 85
-  ]
-  edge [
-    source 31
-    target 82
-    bw 54
-    max_bw 54
-  ]
-  edge [
-    source 31
-    target 85
-    bw 69
-    max_bw 69
-  ]
-  edge [
-    source 31
-    target 96
-    bw 83
-    max_bw 83
-  ]
-  edge [
-    source 32
-    target 44
-    bw 87
-    max_bw 87
-  ]
-  edge [
-    source 32
-    target 54
-    bw 87
-    max_bw 87
-  ]
-  edge [
-    source 32
-    target 67
-    bw 84
-    max_bw 84
-  ]
-  edge [
-    source 32
-    target 83
-    bw 97
-    max_bw 97
-  ]
-  edge [
-    source 32
-    target 93
-    bw 63
-    max_bw 63
-  ]
-  edge [
-    source 33
-    target 37
-    bw 80
-    max_bw 80
-  ]
-  edge [
-    source 33
-    target 43
+    source 18
+    target 25
     bw 78
     max_bw 78
   ]
   edge [
-    source 33
-    target 59
-    bw 57
-    max_bw 57
+    source 18
+    target 28
+    bw 58
+    max_bw 58
   ]
   edge [
-    source 33
-    target 77
-    bw 71
-    max_bw 71
+    source 18
+    target 60
+    bw 77
+    max_bw 77
   ]
   edge [
-    source 33
-    target 78
+    source 18
+    target 71
     bw 96
     max_bw 96
   ]
   edge [
-    source 33
-    target 84
-    bw 53
-    max_bw 53
-  ]
-  edge [
-    source 33
-    target 95
-    bw 93
-    max_bw 93
-  ]
-  edge [
-    source 34
-    target 39
+    source 18
+    target 74
     bw 50
     max_bw 50
   ]
   edge [
-    source 34
+    source 18
+    target 82
+    bw 86
+    max_bw 86
+  ]
+  edge [
+    source 18
+    target 99
+    bw 79
+    max_bw 79
+  ]
+  edge [
+    source 19
+    target 22
+    bw 79
+    max_bw 79
+  ]
+  edge [
+    source 19
+    target 25
+    bw 81
+    max_bw 81
+  ]
+  edge [
+    source 19
+    target 28
+    bw 56
+    max_bw 56
+  ]
+  edge [
+    source 19
+    target 35
+    bw 73
+    max_bw 73
+  ]
+  edge [
+    source 19
+    target 76
+    bw 55
+    max_bw 55
+  ]
+  edge [
+    source 20
+    target 57
+    bw 100
+    max_bw 100
+  ]
+  edge [
+    source 20
+    target 64
+    bw 64
+    max_bw 64
+  ]
+  edge [
+    source 20
+    target 65
+    bw 61
+    max_bw 61
+  ]
+  edge [
+    source 20
+    target 68
+    bw 52
+    max_bw 52
+  ]
+  edge [
+    source 20
+    target 81
+    bw 60
+    max_bw 60
+  ]
+  edge [
+    source 20
+    target 86
+    bw 81
+    max_bw 81
+  ]
+  edge [
+    source 20
+    target 97
+    bw 98
+    max_bw 98
+  ]
+  edge [
+    source 21
+    target 27
+    bw 78
+    max_bw 78
+  ]
+  edge [
+    source 21
+    target 34
+    bw 91
+    max_bw 91
+  ]
+  edge [
+    source 21
+    target 43
+    bw 60
+    max_bw 60
+  ]
+  edge [
+    source 21
+    target 83
+    bw 77
+    max_bw 77
+  ]
+  edge [
+    source 21
+    target 98
+    bw 73
+    max_bw 73
+  ]
+  edge [
+    source 22
+    target 24
+    bw 90
+    max_bw 90
+  ]
+  edge [
+    source 22
+    target 27
+    bw 75
+    max_bw 75
+  ]
+  edge [
+    source 22
+    target 28
+    bw 92
+    max_bw 92
+  ]
+  edge [
+    source 22
+    target 29
+    bw 89
+    max_bw 89
+  ]
+  edge [
+    source 22
+    target 41
+    bw 59
+    max_bw 59
+  ]
+  edge [
+    source 22
+    target 45
+    bw 52
+    max_bw 52
+  ]
+  edge [
+    source 22
+    target 47
+    bw 78
+    max_bw 78
+  ]
+  edge [
+    source 22
+    target 48
+    bw 74
+    max_bw 74
+  ]
+  edge [
+    source 22
+    target 66
+    bw 73
+    max_bw 73
+  ]
+  edge [
+    source 22
+    target 91
+    bw 82
+    max_bw 82
+  ]
+  edge [
+    source 22
+    target 94
+    bw 73
+    max_bw 73
+  ]
+  edge [
+    source 22
+    target 98
+    bw 86
+    max_bw 86
+  ]
+  edge [
+    source 23
+    target 26
+    bw 94
+    max_bw 94
+  ]
+  edge [
+    source 23
     target 41
     bw 98
     max_bw 98
   ]
   edge [
-    source 34
-    target 58
-    bw 54
-    max_bw 54
+    source 23
+    target 57
+    bw 98
+    max_bw 98
   ]
   edge [
-    source 34
-    target 60
-    bw 70
-    max_bw 70
-  ]
-  edge [
-    source 34
-    target 64
-    bw 85
-    max_bw 85
-  ]
-  edge [
-    source 34
-    target 75
-    bw 79
-    max_bw 79
-  ]
-  edge [
-    source 34
-    target 76
-    bw 91
-    max_bw 91
-  ]
-  edge [
-    source 34
-    target 79
-    bw 79
-    max_bw 79
-  ]
-  edge [
-    source 34
-    target 82
-    bw 74
-    max_bw 74
-  ]
-  edge [
-    source 35
-    target 37
-    bw 65
-    max_bw 65
-  ]
-  edge [
-    source 35
-    target 43
-    bw 97
-    max_bw 97
-  ]
-  edge [
-    source 36
-    target 43
-    bw 76
-    max_bw 76
-  ]
-  edge [
-    source 36
-    target 44
-    bw 82
-    max_bw 82
-  ]
-  edge [
-    source 36
-    target 49
-    bw 89
-    max_bw 89
-  ]
-  edge [
-    source 36
-    target 50
-    bw 72
-    max_bw 72
-  ]
-  edge [
-    source 36
-    target 54
-    bw 51
-    max_bw 51
-  ]
-  edge [
-    source 36
-    target 64
-    bw 62
-    max_bw 62
-  ]
-  edge [
-    source 36
-    target 65
-    bw 70
-    max_bw 70
-  ]
-  edge [
-    source 36
-    target 94
-    bw 50
-    max_bw 50
-  ]
-  edge [
-    source 37
-    target 87
-    bw 71
-    max_bw 71
-  ]
-  edge [
-    source 37
-    target 91
-    bw 70
-    max_bw 70
-  ]
-  edge [
-    source 38
-    target 40
+    source 23
+    target 59
     bw 93
     max_bw 93
   ]
   edge [
-    source 38
-    target 46
-    bw 99
-    max_bw 99
+    source 23
+    target 67
+    bw 88
+    max_bw 88
   ]
   edge [
-    source 38
-    target 80
-    bw 64
-    max_bw 64
-  ]
-  edge [
-    source 39
-    target 55
-    bw 92
-    max_bw 92
-  ]
-  edge [
-    source 39
-    target 59
-    bw 87
-    max_bw 87
-  ]
-  edge [
-    source 39
-    target 61
-    bw 82
-    max_bw 82
-  ]
-  edge [
-    source 39
-    target 64
-    bw 59
-    max_bw 59
-  ]
-  edge [
-    source 39
-    target 72
-    bw 100
-    max_bw 100
-  ]
-  edge [
-    source 39
-    target 77
-    bw 68
-    max_bw 68
-  ]
-  edge [
-    source 39
-    target 89
-    bw 74
-    max_bw 74
-  ]
-  edge [
-    source 39
-    target 93
-    bw 92
-    max_bw 92
-  ]
-  edge [
-    source 40
-    target 50
-    bw 100
-    max_bw 100
-  ]
-  edge [
-    source 40
-    target 51
-    bw 57
-    max_bw 57
-  ]
-  edge [
-    source 40
-    target 60
-    bw 69
-    max_bw 69
-  ]
-  edge [
-    source 41
-    target 50
-    bw 52
-    max_bw 52
-  ]
-  edge [
-    source 41
-    target 78
-    bw 77
-    max_bw 77
-  ]
-  edge [
-    source 41
-    target 83
-    bw 99
-    max_bw 99
-  ]
-  edge [
-    source 41
-    target 89
-    bw 63
-    max_bw 63
-  ]
-  edge [
-    source 42
-    target 65
-    bw 71
-    max_bw 71
-  ]
-  edge [
-    source 42
-    target 75
-    bw 58
-    max_bw 58
-  ]
-  edge [
-    source 42
-    target 89
-    bw 68
-    max_bw 68
-  ]
-  edge [
-    source 42
-    target 91
-    bw 73
-    max_bw 73
-  ]
-  edge [
-    source 42
-    target 97
-    bw 53
-    max_bw 53
-  ]
-  edge [
-    source 42
-    target 98
-    bw 64
-    max_bw 64
-  ]
-  edge [
-    source 43
-    target 49
-    bw 70
-    max_bw 70
-  ]
-  edge [
-    source 43
-    target 62
+    source 23
+    target 68
     bw 98
     max_bw 98
   ]
   edge [
-    source 43
-    target 83
-    bw 79
-    max_bw 79
-  ]
-  edge [
-    source 43
-    target 90
-    bw 90
-    max_bw 90
-  ]
-  edge [
-    source 43
-    target 93
-    bw 81
-    max_bw 81
-  ]
-  edge [
-    source 44
-    target 46
-    bw 81
-    max_bw 81
-  ]
-  edge [
-    source 44
-    target 54
-    bw 71
-    max_bw 71
-  ]
-  edge [
-    source 44
-    target 57
-    bw 87
-    max_bw 87
-  ]
-  edge [
-    source 44
-    target 59
-    bw 56
-    max_bw 56
-  ]
-  edge [
-    source 44
-    target 60
-    bw 97
-    max_bw 97
-  ]
-  edge [
-    source 44
-    target 76
-    bw 64
-    max_bw 64
-  ]
-  edge [
-    source 45
-    target 53
-    bw 50
-    max_bw 50
-  ]
-  edge [
-    source 45
-    target 58
-    bw 53
-    max_bw 53
-  ]
-  edge [
-    source 45
-    target 60
-    bw 70
-    max_bw 70
-  ]
-  edge [
-    source 45
-    target 64
-    bw 99
-    max_bw 99
-  ]
-  edge [
-    source 45
-    target 68
-    bw 94
-    max_bw 94
-  ]
-  edge [
-    source 45
-    target 87
+    source 23
+    target 70
     bw 84
     max_bw 84
   ]
   edge [
-    source 45
-    target 96
-    bw 69
-    max_bw 69
+    source 23
+    target 75
+    bw 81
+    max_bw 81
   ]
   edge [
-    source 46
-    target 78
-    bw 94
-    max_bw 94
+    source 23
+    target 79
+    bw 75
+    max_bw 75
   ]
   edge [
-    source 46
-    target 89
-    bw 72
-    max_bw 72
+    source 23
+    target 87
+    bw 98
+    max_bw 98
   ]
   edge [
-    source 46
-    target 97
-    bw 73
-    max_bw 73
-  ]
-  edge [
-    source 47
-    target 51
-    bw 86
-    max_bw 86
-  ]
-  edge [
-    source 47
-    target 54
+    source 23
+    target 93
     bw 70
     max_bw 70
   ]
   edge [
-    source 47
-    target 83
-    bw 59
-    max_bw 59
-  ]
-  edge [
-    source 47
-    target 99
-    bw 58
-    max_bw 58
-  ]
-  edge [
-    source 48
-    target 49
-    bw 86
-    max_bw 86
-  ]
-  edge [
-    source 48
-    target 83
-    bw 61
-    max_bw 61
-  ]
-  edge [
-    source 49
-    target 55
+    source 24
+    target 27
     bw 66
     max_bw 66
   ]
   edge [
-    source 49
-    target 66
-    bw 68
-    max_bw 68
-  ]
-  edge [
-    source 49
-    target 87
-    bw 82
-    max_bw 82
-  ]
-  edge [
-    source 49
-    target 91
-    bw 55
-    max_bw 55
-  ]
-  edge [
-    source 49
-    target 98
-    bw 68
-    max_bw 68
-  ]
-  edge [
-    source 50
-    target 68
-    bw 72
-    max_bw 72
-  ]
-  edge [
-    source 50
-    target 82
-    bw 70
-    max_bw 70
-  ]
-  edge [
-    source 50
-    target 84
-    bw 50
-    max_bw 50
-  ]
-  edge [
-    source 50
-    target 91
-    bw 51
-    max_bw 51
-  ]
-  edge [
-    source 50
-    target 93
-    bw 92
-    max_bw 92
-  ]
-  edge [
-    source 50
-    target 99
-    bw 72
-    max_bw 72
-  ]
-  edge [
-    source 51
-    target 54
-    bw 92
-    max_bw 92
-  ]
-  edge [
-    source 51
-    target 71
-    bw 90
-    max_bw 90
-  ]
-  edge [
-    source 51
-    target 90
-    bw 100
-    max_bw 100
-  ]
-  edge [
-    source 52
-    target 60
-    bw 63
-    max_bw 63
-  ]
-  edge [
-    source 52
-    target 67
-    bw 79
-    max_bw 79
-  ]
-  edge [
-    source 52
-    target 74
+    source 24
+    target 29
     bw 96
     max_bw 96
   ]
   edge [
-    source 52
-    target 76
-    bw 90
-    max_bw 90
+    source 24
+    target 58
+    bw 61
+    max_bw 61
   ]
   edge [
-    source 52
+    source 24
+    target 77
+    bw 58
+    max_bw 58
+  ]
+  edge [
+    source 24
     target 81
     bw 57
     max_bw 57
   ]
   edge [
-    source 52
-    target 88
-    bw 70
-    max_bw 70
+    source 25
+    target 29
+    bw 67
+    max_bw 67
   ]
   edge [
-    source 53
-    target 75
-    bw 59
-    max_bw 59
+    source 25
+    target 44
+    bw 74
+    max_bw 74
   ]
   edge [
-    source 53
-    target 99
-    bw 85
-    max_bw 85
+    source 25
+    target 51
+    bw 87
+    max_bw 87
   ]
   edge [
-    source 54
-    target 66
+    source 25
+    target 55
+    bw 92
+    max_bw 92
+  ]
+  edge [
+    source 25
+    target 60
+    bw 54
+    max_bw 54
+  ]
+  edge [
+    source 25
+    target 63
+    bw 58
+    max_bw 58
+  ]
+  edge [
+    source 25
+    target 67
     bw 52
     max_bw 52
   ]
   edge [
-    source 55
-    target 65
-    bw 75
-    max_bw 75
+    source 25
+    target 82
+    bw 57
+    max_bw 57
   ]
   edge [
-    source 55
-    target 76
+    source 25
+    target 88
+    bw 67
+    max_bw 67
+  ]
+  edge [
+    source 25
+    target 91
+    bw 94
+    max_bw 94
+  ]
+  edge [
+    source 26
+    target 39
+    bw 86
+    max_bw 86
+  ]
+  edge [
+    source 26
+    target 43
+    bw 96
+    max_bw 96
+  ]
+  edge [
+    source 26
+    target 63
+    bw 53
+    max_bw 53
+  ]
+  edge [
+    source 26
+    target 65
+    bw 74
+    max_bw 74
+  ]
+  edge [
+    source 26
+    target 66
+    bw 72
+    max_bw 72
+  ]
+  edge [
+    source 26
+    target 95
+    bw 100
+    max_bw 100
+  ]
+  edge [
+    source 27
+    target 28
     bw 70
     max_bw 70
   ]
   edge [
-    source 55
-    target 93
-    bw 51
-    max_bw 51
+    source 27
+    target 29
+    bw 93
+    max_bw 93
   ]
   edge [
-    source 56
-    target 69
+    source 27
+    target 30
+    bw 69
+    max_bw 69
+  ]
+  edge [
+    source 27
+    target 43
+    bw 92
+    max_bw 92
+  ]
+  edge [
+    source 27
+    target 44
+    bw 59
+    max_bw 59
+  ]
+  edge [
+    source 27
+    target 52
     bw 60
     max_bw 60
   ]
   edge [
-    source 56
-    target 74
-    bw 92
-    max_bw 92
-  ]
-  edge [
-    source 56
-    target 85
-    bw 63
-    max_bw 63
-  ]
-  edge [
-    source 56
-    target 93
-    bw 77
-    max_bw 77
-  ]
-  edge [
-    source 56
-    target 96
-    bw 57
-    max_bw 57
-  ]
-  edge [
-    source 57
-    target 69
-    bw 72
-    max_bw 72
-  ]
-  edge [
-    source 57
-    target 79
-    bw 100
-    max_bw 100
-  ]
-  edge [
-    source 57
-    target 82
-    bw 61
-    max_bw 61
-  ]
-  edge [
-    source 57
-    target 91
+    source 27
+    target 77
     bw 50
     max_bw 50
   ]
   edge [
-    source 57
-    target 97
-    bw 75
-    max_bw 75
-  ]
-  edge [
-    source 58
-    target 60
-    bw 63
-    max_bw 63
-  ]
-  edge [
-    source 58
-    target 62
-    bw 66
-    max_bw 66
-  ]
-  edge [
-    source 58
-    target 65
+    source 27
+    target 83
     bw 74
     max_bw 74
   ]
   edge [
-    source 58
-    target 68
-    bw 74
-    max_bw 74
-  ]
-  edge [
-    source 58
-    target 85
-    bw 61
-    max_bw 61
-  ]
-  edge [
-    source 58
-    target 99
-    bw 59
-    max_bw 59
-  ]
-  edge [
-    source 59
-    target 67
-    bw 90
-    max_bw 90
-  ]
-  edge [
-    source 59
-    target 69
-    bw 80
-    max_bw 80
-  ]
-  edge [
-    source 59
-    target 81
-    bw 96
-    max_bw 96
-  ]
-  edge [
-    source 59
-    target 86
+    source 27
+    target 84
     bw 64
     max_bw 64
   ]
   edge [
-    source 60
-    target 66
-    bw 61
-    max_bw 61
+    source 28
+    target 30
+    bw 60
+    max_bw 60
   ]
   edge [
-    source 60
-    target 74
-    bw 79
-    max_bw 79
+    source 28
+    target 31
+    bw 73
+    max_bw 73
   ]
   edge [
-    source 60
-    target 96
-    bw 86
-    max_bw 86
+    source 28
+    target 50
+    bw 54
+    max_bw 54
   ]
   edge [
-    source 61
-    target 68
-    bw 80
-    max_bw 80
+    source 28
+    target 62
+    bw 63
+    max_bw 63
   ]
   edge [
-    source 61
-    target 91
-    bw 65
-    max_bw 65
+    source 28
+    target 72
+    bw 96
+    max_bw 96
   ]
   edge [
-    source 62
-    target 77
-    bw 98
-    max_bw 98
-  ]
-  edge [
-    source 62
-    target 86
-    bw 52
-    max_bw 52
-  ]
-  edge [
-    source 63
-    target 76
-    bw 87
-    max_bw 87
-  ]
-  edge [
-    source 63
-    target 98
-    bw 53
-    max_bw 53
-  ]
-  edge [
-    source 64
-    target 65
-    bw 57
-    max_bw 57
-  ]
-  edge [
-    source 64
-    target 77
-    bw 84
-    max_bw 84
-  ]
-  edge [
-    source 64
-    target 93
-    bw 76
-    max_bw 76
-  ]
-  edge [
-    source 65
-    target 91
-    bw 51
-    max_bw 51
-  ]
-  edge [
-    source 66
-    target 71
+    source 28
+    target 78
     bw 56
     max_bw 56
   ]
   edge [
-    source 66
-    target 76
-    bw 86
-    max_bw 86
+    source 29
+    target 30
+    bw 69
+    max_bw 69
   ]
   edge [
-    source 68
+    source 29
+    target 36
+    bw 81
+    max_bw 81
+  ]
+  edge [
+    source 29
+    target 42
+    bw 63
+    max_bw 63
+  ]
+  edge [
+    source 29
+    target 64
+    bw 80
+    max_bw 80
+  ]
+  edge [
+    source 29
+    target 69
+    bw 51
+    max_bw 51
+  ]
+  edge [
+    source 29
+    target 82
+    bw 56
+    max_bw 56
+  ]
+  edge [
+    source 29
+    target 84
+    bw 56
+    max_bw 56
+  ]
+  edge [
+    source 29
+    target 95
+    bw 90
+    max_bw 90
+  ]
+  edge [
+    source 29
+    target 97
+    bw 67
+    max_bw 67
+  ]
+  edge [
+    source 29
+    target 99
+    bw 61
+    max_bw 61
+  ]
+  edge [
+    source 30
+    target 35
+    bw 99
+    max_bw 99
+  ]
+  edge [
+    source 30
+    target 54
+    bw 88
+    max_bw 88
+  ]
+  edge [
+    source 30
+    target 59
+    bw 100
+    max_bw 100
+  ]
+  edge [
+    source 30
+    target 62
+    bw 71
+    max_bw 71
+  ]
+  edge [
+    source 30
+    target 68
+    bw 67
+    max_bw 67
+  ]
+  edge [
+    source 30
+    target 84
+    bw 82
+    max_bw 82
+  ]
+  edge [
+    source 30
+    target 89
+    bw 85
+    max_bw 85
+  ]
+  edge [
+    source 30
+    target 96
+    bw 57
+    max_bw 57
+  ]
+  edge [
+    source 31
+    target 34
+    bw 94
+    max_bw 94
+  ]
+  edge [
+    source 31
+    target 37
+    bw 78
+    max_bw 78
+  ]
+  edge [
+    source 31
+    target 51
+    bw 59
+    max_bw 59
+  ]
+  edge [
+    source 31
+    target 52
+    bw 97
+    max_bw 97
+  ]
+  edge [
+    source 31
+    target 72
+    bw 77
+    max_bw 77
+  ]
+  edge [
+    source 31
+    target 77
+    bw 77
+    max_bw 77
+  ]
+  edge [
+    source 32
+    target 35
+    bw 84
+    max_bw 84
+  ]
+  edge [
+    source 32
+    target 38
+    bw 66
+    max_bw 66
+  ]
+  edge [
+    source 32
+    target 40
+    bw 62
+    max_bw 62
+  ]
+  edge [
+    source 32
+    target 48
+    bw 54
+    max_bw 54
+  ]
+  edge [
+    source 32
+    target 52
+    bw 67
+    max_bw 67
+  ]
+  edge [
+    source 32
+    target 85
+    bw 67
+    max_bw 67
+  ]
+  edge [
+    source 32
+    target 99
+    bw 75
+    max_bw 75
+  ]
+  edge [
+    source 33
+    target 36
+    bw 96
+    max_bw 96
+  ]
+  edge [
+    source 33
+    target 40
+    bw 71
+    max_bw 71
+  ]
+  edge [
+    source 33
+    target 46
+    bw 63
+    max_bw 63
+  ]
+  edge [
+    source 33
+    target 55
+    bw 50
+    max_bw 50
+  ]
+  edge [
+    source 33
+    target 57
+    bw 100
+    max_bw 100
+  ]
+  edge [
+    source 33
+    target 79
+    bw 73
+    max_bw 73
+  ]
+  edge [
+    source 34
+    target 51
+    bw 71
+    max_bw 71
+  ]
+  edge [
+    source 34
+    target 55
+    bw 99
+    max_bw 99
+  ]
+  edge [
+    source 34
+    target 59
+    bw 70
+    max_bw 70
+  ]
+  edge [
+    source 34
+    target 64
+    bw 100
+    max_bw 100
+  ]
+  edge [
+    source 34
+    target 76
+    bw 93
+    max_bw 93
+  ]
+  edge [
+    source 34
+    target 79
+    bw 74
+    max_bw 74
+  ]
+  edge [
+    source 34
+    target 80
+    bw 72
+    max_bw 72
+  ]
+  edge [
+    source 34
+    target 84
+    bw 99
+    max_bw 99
+  ]
+  edge [
+    source 34
+    target 90
+    bw 69
+    max_bw 69
+  ]
+  edge [
+    source 34
+    target 98
+    bw 100
+    max_bw 100
+  ]
+  edge [
+    source 35
+    target 36
+    bw 50
+    max_bw 50
+  ]
+  edge [
+    source 35
+    target 39
+    bw 100
+    max_bw 100
+  ]
+  edge [
+    source 35
+    target 41
+    bw 60
+    max_bw 60
+  ]
+  edge [
+    source 35
+    target 47
+    bw 57
+    max_bw 57
+  ]
+  edge [
+    source 35
+    target 61
+    bw 64
+    max_bw 64
+  ]
+  edge [
+    source 35
+    target 64
+    bw 83
+    max_bw 83
+  ]
+  edge [
+    source 35
+    target 66
+    bw 58
+    max_bw 58
+  ]
+  edge [
+    source 35
+    target 74
+    bw 76
+    max_bw 76
+  ]
+  edge [
+    source 35
+    target 86
+    bw 67
+    max_bw 67
+  ]
+  edge [
+    source 35
+    target 92
+    bw 79
+    max_bw 79
+  ]
+  edge [
+    source 35
+    target 94
+    bw 63
+    max_bw 63
+  ]
+  edge [
+    source 35
+    target 95
+    bw 78
+    max_bw 78
+  ]
+  edge [
+    source 36
+    target 61
+    bw 61
+    max_bw 61
+  ]
+  edge [
+    source 36
+    target 72
+    bw 60
+    max_bw 60
+  ]
+  edge [
+    source 36
+    target 83
+    bw 92
+    max_bw 92
+  ]
+  edge [
+    source 37
+    target 43
+    bw 74
+    max_bw 74
+  ]
+  edge [
+    source 37
+    target 61
+    bw 83
+    max_bw 83
+  ]
+  edge [
+    source 37
+    target 89
+    bw 84
+    max_bw 84
+  ]
+  edge [
+    source 37
+    target 95
+    bw 59
+    max_bw 59
+  ]
+  edge [
+    source 38
+    target 48
+    bw 72
+    max_bw 72
+  ]
+  edge [
+    source 38
+    target 49
+    bw 95
+    max_bw 95
+  ]
+  edge [
+    source 38
+    target 53
+    bw 55
+    max_bw 55
+  ]
+  edge [
+    source 38
+    target 63
+    bw 55
+    max_bw 55
+  ]
+  edge [
+    source 38
+    target 72
+    bw 72
+    max_bw 72
+  ]
+  edge [
+    source 38
+    target 73
+    bw 87
+    max_bw 87
+  ]
+  edge [
+    source 38
+    target 75
+    bw 56
+    max_bw 56
+  ]
+  edge [
+    source 38
+    target 77
+    bw 85
+    max_bw 85
+  ]
+  edge [
+    source 38
+    target 80
+    bw 50
+    max_bw 50
+  ]
+  edge [
+    source 38
+    target 81
+    bw 54
+    max_bw 54
+  ]
+  edge [
+    source 39
+    target 54
+    bw 75
+    max_bw 75
+  ]
+  edge [
+    source 39
+    target 59
+    bw 78
+    max_bw 78
+  ]
+  edge [
+    source 39
+    target 62
+    bw 92
+    max_bw 92
+  ]
+  edge [
+    source 39
+    target 63
+    bw 83
+    max_bw 83
+  ]
+  edge [
+    source 39
+    target 83
+    bw 75
+    max_bw 75
+  ]
+  edge [
+    source 39
+    target 87
+    bw 73
+    max_bw 73
+  ]
+  edge [
+    source 39
+    target 90
+    bw 85
+    max_bw 85
+  ]
+  edge [
+    source 40
+    target 67
+    bw 98
+    max_bw 98
+  ]
+  edge [
+    source 40
+    target 81
+    bw 82
+    max_bw 82
+  ]
+  edge [
+    source 40
+    target 82
+    bw 77
+    max_bw 77
+  ]
+  edge [
+    source 41
+    target 48
+    bw 83
+    max_bw 83
+  ]
+  edge [
+    source 41
+    target 54
+    bw 56
+    max_bw 56
+  ]
+  edge [
+    source 41
+    target 55
+    bw 55
+    max_bw 55
+  ]
+  edge [
+    source 41
+    target 59
+    bw 50
+    max_bw 50
+  ]
+  edge [
+    source 41
+    target 65
+    bw 97
+    max_bw 97
+  ]
+  edge [
+    source 41
+    target 86
+    bw 55
+    max_bw 55
+  ]
+  edge [
+    source 41
+    target 93
+    bw 97
+    max_bw 97
+  ]
+  edge [
+    source 42
+    target 55
+    bw 100
+    max_bw 100
+  ]
+  edge [
+    source 42
+    target 68
+    bw 57
+    max_bw 57
+  ]
+  edge [
+    source 42
+    target 69
+    bw 89
+    max_bw 89
+  ]
+  edge [
+    source 42
+    target 72
+    bw 56
+    max_bw 56
+  ]
+  edge [
+    source 42
+    target 84
+    bw 58
+    max_bw 58
+  ]
+  edge [
+    source 42
+    target 95
+    bw 90
+    max_bw 90
+  ]
+  edge [
+    source 43
+    target 48
+    bw 72
+    max_bw 72
+  ]
+  edge [
+    source 43
+    target 50
+    bw 51
+    max_bw 51
+  ]
+  edge [
+    source 43
+    target 76
+    bw 81
+    max_bw 81
+  ]
+  edge [
+    source 43
+    target 87
+    bw 55
+    max_bw 55
+  ]
+  edge [
+    source 44
+    target 76
+    bw 67
+    max_bw 67
+  ]
+  edge [
+    source 44
+    target 94
+    bw 97
+    max_bw 97
+  ]
+  edge [
+    source 45
+    target 46
+    bw 81
+    max_bw 81
+  ]
+  edge [
+    source 45
+    target 53
+    bw 91
+    max_bw 91
+  ]
+  edge [
+    source 45
+    target 63
+    bw 73
+    max_bw 73
+  ]
+  edge [
+    source 45
+    target 70
+    bw 66
+    max_bw 66
+  ]
+  edge [
+    source 45
+    target 78
+    bw 97
+    max_bw 97
+  ]
+  edge [
+    source 45
+    target 83
+    bw 78
+    max_bw 78
+  ]
+  edge [
+    source 45
+    target 85
+    bw 70
+    max_bw 70
+  ]
+  edge [
+    source 45
+    target 86
+    bw 58
+    max_bw 58
+  ]
+  edge [
+    source 46
+    target 54
+    bw 56
+    max_bw 56
+  ]
+  edge [
+    source 46
+    target 61
+    bw 65
+    max_bw 65
+  ]
+  edge [
+    source 46
+    target 63
+    bw 100
+    max_bw 100
+  ]
+  edge [
+    source 46
+    target 65
+    bw 98
+    max_bw 98
+  ]
+  edge [
+    source 46
+    target 88
+    bw 72
+    max_bw 72
+  ]
+  edge [
+    source 47
+    target 54
+    bw 63
+    max_bw 63
+  ]
+  edge [
+    source 47
+    target 58
+    bw 88
+    max_bw 88
+  ]
+  edge [
+    source 47
+    target 64
+    bw 93
+    max_bw 93
+  ]
+  edge [
+    source 48
+    target 55
+    bw 95
+    max_bw 95
+  ]
+  edge [
+    source 48
+    target 58
+    bw 67
+    max_bw 67
+  ]
+  edge [
+    source 48
+    target 66
+    bw 99
+    max_bw 99
+  ]
+  edge [
+    source 48
+    target 68
+    bw 59
+    max_bw 59
+  ]
+  edge [
+    source 48
+    target 71
+    bw 98
+    max_bw 98
+  ]
+  edge [
+    source 48
+    target 80
+    bw 68
+    max_bw 68
+  ]
+  edge [
+    source 48
+    target 93
+    bw 87
+    max_bw 87
+  ]
+  edge [
+    source 48
+    target 95
+    bw 51
+    max_bw 51
+  ]
+  edge [
+    source 48
+    target 97
+    bw 60
+    max_bw 60
+  ]
+  edge [
+    source 49
+    target 51
+    bw 76
+    max_bw 76
+  ]
+  edge [
+    source 49
+    target 70
+    bw 80
+    max_bw 80
+  ]
+  edge [
+    source 49
+    target 80
+    bw 90
+    max_bw 90
+  ]
+  edge [
+    source 49
+    target 81
+    bw 57
+    max_bw 57
+  ]
+  edge [
+    source 49
+    target 91
+    bw 61
+    max_bw 61
+  ]
+  edge [
+    source 50
+    target 60
+    bw 68
+    max_bw 68
+  ]
+  edge [
+    source 50
+    target 63
+    bw 50
+    max_bw 50
+  ]
+  edge [
+    source 50
+    target 67
+    bw 100
+    max_bw 100
+  ]
+  edge [
+    source 50
+    target 74
+    bw 52
+    max_bw 52
+  ]
+  edge [
+    source 50
+    target 77
+    bw 92
+    max_bw 92
+  ]
+  edge [
+    source 51
+    target 68
+    bw 82
+    max_bw 82
+  ]
+  edge [
+    source 51
+    target 90
+    bw 89
+    max_bw 89
+  ]
+  edge [
+    source 51
+    target 91
+    bw 99
+    max_bw 99
+  ]
+  edge [
+    source 52
+    target 72
+    bw 97
+    max_bw 97
+  ]
+  edge [
+    source 52
+    target 93
+    bw 52
+    max_bw 52
+  ]
+  edge [
+    source 52
+    target 95
+    bw 81
+    max_bw 81
+  ]
+  edge [
+    source 53
+    target 58
+    bw 70
+    max_bw 70
+  ]
+  edge [
+    source 53
+    target 62
+    bw 97
+    max_bw 97
+  ]
+  edge [
+    source 53
+    target 64
+    bw 67
+    max_bw 67
+  ]
+  edge [
+    source 53
+    target 79
+    bw 82
+    max_bw 82
+  ]
+  edge [
+    source 53
     target 82
     bw 95
     max_bw 95
   ]
   edge [
-    source 68
+    source 53
+    target 85
+    bw 81
+    max_bw 81
+  ]
+  edge [
+    source 53
+    target 94
+    bw 55
+    max_bw 55
+  ]
+  edge [
+    source 53
+    target 96
+    bw 53
+    max_bw 53
+  ]
+  edge [
+    source 54
+    target 56
+    bw 64
+    max_bw 64
+  ]
+  edge [
+    source 54
+    target 64
+    bw 72
+    max_bw 72
+  ]
+  edge [
+    source 54
+    target 70
+    bw 50
+    max_bw 50
+  ]
+  edge [
+    source 54
+    target 72
+    bw 100
+    max_bw 100
+  ]
+  edge [
+    source 54
+    target 86
+    bw 55
+    max_bw 55
+  ]
+  edge [
+    source 54
+    target 87
+    bw 97
+    max_bw 97
+  ]
+  edge [
+    source 54
+    target 89
+    bw 98
+    max_bw 98
+  ]
+  edge [
+    source 54
+    target 96
+    bw 55
+    max_bw 55
+  ]
+  edge [
+    source 55
+    target 57
+    bw 59
+    max_bw 59
+  ]
+  edge [
+    source 55
+    target 65
+    bw 94
+    max_bw 94
+  ]
+  edge [
+    source 56
+    target 59
+    bw 68
+    max_bw 68
+  ]
+  edge [
+    source 56
+    target 61
+    bw 52
+    max_bw 52
+  ]
+  edge [
+    source 56
+    target 70
+    bw 94
+    max_bw 94
+  ]
+  edge [
+    source 56
+    target 82
+    bw 100
+    max_bw 100
+  ]
+  edge [
+    source 56
+    target 95
+    bw 63
+    max_bw 63
+  ]
+  edge [
+    source 57
+    target 66
+    bw 80
+    max_bw 80
+  ]
+  edge [
+    source 57
+    target 77
+    bw 88
+    max_bw 88
+  ]
+  edge [
+    source 57
+    target 83
+    bw 62
+    max_bw 62
+  ]
+  edge [
+    source 57
+    target 95
+    bw 94
+    max_bw 94
+  ]
+  edge [
+    source 58
+    target 70
+    bw 99
+    max_bw 99
+  ]
+  edge [
+    source 58
+    target 76
+    bw 50
+    max_bw 50
+  ]
+  edge [
+    source 58
+    target 86
+    bw 68
+    max_bw 68
+  ]
+  edge [
+    source 58
     target 93
-    bw 90
-    max_bw 90
+    bw 59
+    max_bw 59
+  ]
+  edge [
+    source 59
+    target 65
+    bw 83
+    max_bw 83
+  ]
+  edge [
+    source 59
+    target 74
+    bw 91
+    max_bw 91
+  ]
+  edge [
+    source 59
+    target 77
+    bw 83
+    max_bw 83
+  ]
+  edge [
+    source 59
+    target 80
+    bw 98
+    max_bw 98
+  ]
+  edge [
+    source 60
+    target 67
+    bw 99
+    max_bw 99
+  ]
+  edge [
+    source 60
+    target 73
+    bw 100
+    max_bw 100
+  ]
+  edge [
+    source 60
+    target 86
+    bw 100
+    max_bw 100
+  ]
+  edge [
+    source 61
+    target 62
+    bw 82
+    max_bw 82
+  ]
+  edge [
+    source 61
+    target 78
+    bw 83
+    max_bw 83
+  ]
+  edge [
+    source 61
+    target 85
+    bw 74
+    max_bw 74
+  ]
+  edge [
+    source 61
+    target 88
+    bw 77
+    max_bw 77
+  ]
+  edge [
+    source 61
+    target 94
+    bw 80
+    max_bw 80
+  ]
+  edge [
+    source 61
+    target 97
+    bw 50
+    max_bw 50
+  ]
+  edge [
+    source 62
+    target 68
+    bw 53
+    max_bw 53
+  ]
+  edge [
+    source 62
+    target 77
+    bw 61
+    max_bw 61
+  ]
+  edge [
+    source 62
+    target 84
+    bw 73
+    max_bw 73
+  ]
+  edge [
+    source 62
+    target 91
+    bw 85
+    max_bw 85
+  ]
+  edge [
+    source 63
+    target 81
+    bw 82
+    max_bw 82
+  ]
+  edge [
+    source 63
+    target 86
+    bw 88
+    max_bw 88
+  ]
+  edge [
+    source 63
+    target 95
+    bw 99
+    max_bw 99
+  ]
+  edge [
+    source 64
+    target 98
+    bw 54
+    max_bw 54
+  ]
+  edge [
+    source 65
+    target 86
+    bw 99
+    max_bw 99
+  ]
+  edge [
+    source 66
+    target 75
+    bw 85
+    max_bw 85
+  ]
+  edge [
+    source 66
+    target 80
+    bw 79
+    max_bw 79
+  ]
+  edge [
+    source 66
+    target 90
+    bw 64
+    max_bw 64
+  ]
+  edge [
+    source 67
+    target 82
+    bw 71
+    max_bw 71
+  ]
+  edge [
+    source 67
+    target 95
+    bw 53
+    max_bw 53
   ]
   edge [
     source 68
-    target 94
-    bw 56
-    max_bw 56
+    target 73
+    bw 77
+    max_bw 77
+  ]
+  edge [
+    source 68
+    target 78
+    bw 50
+    max_bw 50
   ]
   edge [
     source 69
-    target 82
+    target 74
+    bw 85
+    max_bw 85
+  ]
+  edge [
+    source 69
+    target 78
     bw 59
     max_bw 59
   ]
   edge [
     source 69
-    target 88
-    bw 70
-    max_bw 70
+    target 84
+    bw 79
+    max_bw 79
   ]
   edge [
     source 69
-    target 95
-    bw 100
-    max_bw 100
-  ]
-  edge [
-    source 70
-    target 83
-    bw 72
-    max_bw 72
-  ]
-  edge [
-    source 71
-    target 75
-    bw 78
-    max_bw 78
-  ]
-  edge [
-    source 71
     target 85
-    bw 71
-    max_bw 71
-  ]
-  edge [
-    source 71
-    target 92
-    bw 93
-    max_bw 93
-  ]
-  edge [
-    source 72
-    target 73
-    bw 85
-    max_bw 85
-  ]
-  edge [
-    source 72
-    target 85
-    bw 98
-    max_bw 98
-  ]
-  edge [
-    source 73
-    target 81
-    bw 56
-    max_bw 56
-  ]
-  edge [
-    source 73
-    target 93
     bw 80
     max_bw 80
   ]
   edge [
-    source 73
-    target 94
-    bw 50
-    max_bw 50
-  ]
-  edge [
-    source 74
-    target 91
-    bw 88
-    max_bw 88
-  ]
-  edge [
-    source 74
-    target 94
-    bw 51
-    max_bw 51
-  ]
-  edge [
-    source 74
-    target 99
-    bw 84
-    max_bw 84
-  ]
-  edge [
-    source 75
-    target 92
-    bw 67
-    max_bw 67
-  ]
-  edge [
-    source 76
-    target 85
-    bw 52
-    max_bw 52
-  ]
-  edge [
-    source 76
-    target 93
-    bw 50
-    max_bw 50
-  ]
-  edge [
-    source 76
-    target 96
-    bw 50
-    max_bw 50
-  ]
-  edge [
-    source 76
-    target 98
-    bw 74
-    max_bw 74
-  ]
-  edge [
-    source 78
-    target 83
-    bw 55
-    max_bw 55
-  ]
-  edge [
-    source 78
-    target 85
-    bw 77
-    max_bw 77
-  ]
-  edge [
-    source 78
-    target 98
-    bw 81
-    max_bw 81
-  ]
-  edge [
-    source 79
-    target 80
-    bw 85
-    max_bw 85
-  ]
-  edge [
-    source 79
-    target 94
-    bw 53
-    max_bw 53
-  ]
-  edge [
-    source 79
-    target 95
-    bw 57
-    max_bw 57
-  ]
-  edge [
-    source 80
-    target 82
+    source 69
+    target 90
     bw 90
     max_bw 90
   ]
   edge [
-    source 80
-    target 95
-    bw 98
-    max_bw 98
-  ]
-  edge [
-    source 82
-    target 92
-    bw 65
-    max_bw 65
-  ]
-  edge [
-    source 83
-    target 96
+    source 70
+    target 76
     bw 64
     max_bw 64
   ]
   edge [
-    source 85
-    target 96
-    bw 69
-    max_bw 69
+    source 70
+    target 79
+    bw 63
+    max_bw 63
   ]
   edge [
-    source 87
-    target 95
-    bw 54
-    max_bw 54
+    source 70
+    target 80
+    bw 98
+    max_bw 98
   ]
   edge [
-    source 90
+    source 70
+    target 81
+    bw 88
+    max_bw 88
+  ]
+  edge [
+    source 70
+    target 84
+    bw 79
+    max_bw 79
+  ]
+  edge [
+    source 70
+    target 90
+    bw 78
+    max_bw 78
+  ]
+  edge [
+    source 70
     target 99
+    bw 66
+    max_bw 66
+  ]
+  edge [
+    source 71
+    target 78
     bw 83
     max_bw 83
   ]
   edge [
-    source 91
+    source 71
+    target 84
+    bw 52
+    max_bw 52
+  ]
+  edge [
+    source 71
+    target 87
+    bw 56
+    max_bw 56
+  ]
+  edge [
+    source 71
+    target 93
+    bw 70
+    max_bw 70
+  ]
+  edge [
+    source 71
     target 96
+    bw 100
+    max_bw 100
+  ]
+  edge [
+    source 72
+    target 74
     bw 90
     max_bw 90
   ]
   edge [
-    source 91
-    target 99
+    source 72
+    target 76
+    bw 97
+    max_bw 97
+  ]
+  edge [
+    source 72
+    target 84
+    bw 95
+    max_bw 95
+  ]
+  edge [
+    source 73
+    target 79
+    bw 71
+    max_bw 71
+  ]
+  edge [
+    source 73
+    target 87
+    bw 84
+    max_bw 84
+  ]
+  edge [
+    source 73
+    target 90
+    bw 92
+    max_bw 92
+  ]
+  edge [
+    source 74
+    target 88
+    bw 76
+    max_bw 76
+  ]
+  edge [
+    source 74
+    target 90
     bw 85
     max_bw 85
   ]
   edge [
-    source 92
+    source 74
+    target 93
+    bw 96
+    max_bw 96
+  ]
+  edge [
+    source 74
+    target 95
+    bw 52
+    max_bw 52
+  ]
+  edge [
+    source 75
+    target 85
+    bw 62
+    max_bw 62
+  ]
+  edge [
+    source 76
+    target 87
+    bw 90
+    max_bw 90
+  ]
+  edge [
+    source 76
+    target 98
+    bw 96
+    max_bw 96
+  ]
+  edge [
+    source 77
+    target 78
+    bw 56
+    max_bw 56
+  ]
+  edge [
+    source 77
+    target 84
+    bw 79
+    max_bw 79
+  ]
+  edge [
+    source 78
+    target 85
+    bw 74
+    max_bw 74
+  ]
+  edge [
+    source 79
+    target 89
+    bw 91
+    max_bw 91
+  ]
+  edge [
+    source 79
+    target 91
+    bw 94
+    max_bw 94
+  ]
+  edge [
+    source 79
+    target 93
+    bw 92
+    max_bw 92
+  ]
+  edge [
+    source 82
+    target 83
+    bw 59
+    max_bw 59
+  ]
+  edge [
+    source 82
+    target 97
+    bw 86
+    max_bw 86
+  ]
+  edge [
+    source 84
+    target 88
+    bw 79
+    max_bw 79
+  ]
+  edge [
+    source 84
+    target 94
+    bw 54
+    max_bw 54
+  ]
+  edge [
+    source 85
+    target 86
+    bw 90
+    max_bw 90
+  ]
+  edge [
+    source 87
+    target 98
+    bw 71
+    max_bw 71
+  ]
+  edge [
+    source 88
+    target 96
+    bw 100
+    max_bw 100
+  ]
+  edge [
+    source 89
+    target 93
+    bw 53
+    max_bw 53
+  ]
+  edge [
+    source 91
+    target 98
+    bw 75
+    max_bw 75
+  ]
+  edge [
+    source 93
+    target 98
+    bw 65
+    max_bw 65
+  ]
+  edge [
+    source 97
+    target 98
+    bw 80
+    max_bw 80
+  ]
+  edge [
+    source 97
     target 99
     bw 60
     max_bw 60

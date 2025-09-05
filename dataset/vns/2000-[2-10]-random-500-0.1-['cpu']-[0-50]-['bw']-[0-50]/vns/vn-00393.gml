@@ -22,124 +22,114 @@ graph [
     type "resource"
   ]
   id 393
-  arrival_time 3863.0
-  lifetime 30.050442090782926
-  num_nodes 8
+  arrival_time 3885.0
+  lifetime 266.03782306486096
+  num_nodes 9
   type "random"
   random_prob 0.5
   node [
     id 0
     label "0"
-    cpu 8
+    cpu 11
   ]
   node [
     id 1
     label "1"
-    cpu 22
+    cpu 21
   ]
   node [
     id 2
     label "2"
-    cpu 7
+    cpu 11
   ]
   node [
     id 3
     label "3"
-    cpu 42
+    cpu 18
   ]
   node [
     id 4
     label "4"
-    cpu 49
+    cpu 9
   ]
   node [
     id 5
     label "5"
-    cpu 12
+    cpu 19
   ]
   node [
     id 6
     label "6"
-    cpu 14
+    cpu 25
   ]
   node [
     id 7
     label "7"
-    cpu 47
+    cpu 37
+  ]
+  node [
+    id 8
+    label "8"
+    cpu 41
   ]
   edge [
     source 0
-    target 3
-    bw 0
-  ]
-  edge [
-    source 0
-    target 6
-    bw 8
-  ]
-  edge [
-    source 1
-    target 2
-    bw 7
-  ]
-  edge [
-    source 1
-    target 3
-    bw 46
-  ]
-  edge [
-    source 1
-    target 4
-    bw 38
-  ]
-  edge [
-    source 1
-    target 7
-    bw 39
-  ]
-  edge [
-    source 2
-    target 3
-    bw 38
-  ]
-  edge [
-    source 2
-    target 4
-    bw 43
-  ]
-  edge [
-    source 3
-    target 5
-    bw 24
-  ]
-  edge [
-    source 3
-    target 6
+    target 1
     bw 26
   ]
   edge [
-    source 4
+    source 0
+    target 6
+    bw 24
+  ]
+  edge [
+    source 1
+    target 7
+    bw 23
+  ]
+  edge [
+    source 2
+    target 3
+    bw 33
+  ]
+  edge [
+    source 2
+    target 4
+    bw 6
+  ]
+  edge [
+    source 2
     target 5
-    bw 38
+    bw 5
   ]
   edge [
-    source 4
-    target 6
-    bw 4
-  ]
-  edge [
-    source 5
-    target 6
+    source 2
+    target 7
     bw 7
   ]
   edge [
-    source 5
+    source 3
+    target 4
+    bw 21
+  ]
+  edge [
+    source 3
     target 7
-    bw 47
+    bw 27
+  ]
+  edge [
+    source 4
+    target 5
+    bw 25
+  ]
+  edge [
+    source 5
+    target 6
+    bw 43
   ]
   edge [
     source 6
-    target 7
-    bw 47
+    target 8
+    bw 26
   ]
 ]

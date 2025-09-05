@@ -22,34 +22,174 @@ graph [
     type "resource"
   ]
   id 1638
-  arrival_time 16177.0
-  lifetime 194.21679212652114
-  num_nodes 3
+  arrival_time 16236.0
+  lifetime 611.3398196208559
+  num_nodes 9
   type "random"
   random_prob 0.5
   node [
     id 0
     label "0"
-    cpu 41
+    cpu 0
   ]
   node [
     id 1
     label "1"
-    cpu 32
+    cpu 28
   ]
   node [
     id 2
     label "2"
-    cpu 15
+    cpu 18
+  ]
+  node [
+    id 3
+    label "3"
+    cpu 10
+  ]
+  node [
+    id 4
+    label "4"
+    cpu 21
+  ]
+  node [
+    id 5
+    label "5"
+    cpu 10
+  ]
+  node [
+    id 6
+    label "6"
+    cpu 7
+  ]
+  node [
+    id 7
+    label "7"
+    cpu 32
+  ]
+  node [
+    id 8
+    label "8"
+    cpu 22
   ]
   edge [
     source 0
     target 2
-    bw 40
+    bw 37
+  ]
+  edge [
+    source 0
+    target 3
+    bw 7
+  ]
+  edge [
+    source 0
+    target 4
+    bw 3
+  ]
+  edge [
+    source 0
+    target 5
+    bw 30
+  ]
+  edge [
+    source 0
+    target 6
+    bw 2
+  ]
+  edge [
+    source 0
+    target 7
+    bw 20
+  ]
+  edge [
+    source 0
+    target 8
+    bw 24
   ]
   edge [
     source 1
-    target 2
-    bw 8
+    target 5
+    bw 15
+  ]
+  edge [
+    source 1
+    target 6
+    bw 16
+  ]
+  edge [
+    source 1
+    target 8
+    bw 7
+  ]
+  edge [
+    source 2
+    target 5
+    bw 34
+  ]
+  edge [
+    source 2
+    target 6
+    bw 0
+  ]
+  edge [
+    source 2
+    target 7
+    bw 35
+  ]
+  edge [
+    source 2
+    target 8
+    bw 1
+  ]
+  edge [
+    source 3
+    target 4
+    bw 29
+  ]
+  edge [
+    source 3
+    target 5
+    bw 44
+  ]
+  edge [
+    source 3
+    target 6
+    bw 36
+  ]
+  edge [
+    source 3
+    target 7
+    bw 29
+  ]
+  edge [
+    source 4
+    target 5
+    bw 49
+  ]
+  edge [
+    source 4
+    target 6
+    bw 39
+  ]
+  edge [
+    source 4
+    target 8
+    bw 20
+  ]
+  edge [
+    source 5
+    target 7
+    bw 38
+  ]
+  edge [
+    source 6
+    target 7
+    bw 7
+  ]
+  edge [
+    source 6
+    target 8
+    bw 35
   ]
 ]

@@ -4,7 +4,7 @@ import yaml
 import shutil
 import numpy as np
 import pickle
-from utils import read_setting, get_pn_dataset_dir_from_setting, get_vns_dataset_dir_from_setting, write_setting, get_sub_vns_dataset_dir_from_setting
+from .utils import read_setting, get_pn_dataset_dir_from_setting, get_vns_dataset_dir_from_setting, write_setting, get_sub_vns_dataset_dir_from_setting
 from physical_network import PhysicalNetwork
 from vn_simulator import VNSimulator
 

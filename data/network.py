@@ -3,8 +3,8 @@ import networkx as nx
 import json
 import yaml
 
-from attribute import Attribute
-from utils import write_setting
+from .attribute import Attribute
+from .utils import write_setting
 
 
 class Network(nx.Graph):
