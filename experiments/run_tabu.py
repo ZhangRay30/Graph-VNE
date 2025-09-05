@@ -64,7 +64,7 @@ solver = TabuSearchSolver(
 )
 
 # ======== 选一个 VN 运行实验 ========
-v_net = vn_sim.vns[0]  # 可替换为 vn_sim.vns[10] 等
+v_net = vn_sim.vns[10]  # 可替换为 vn_sim.vns[10] 等
 solution = Solution.from_v_net(v_net)
 
 # 执行求解
