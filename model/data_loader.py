@@ -76,11 +76,10 @@ class VNEDatasetPyG(Dataset):
             lifetime=torch.tensor(vn["lifetime"], dtype=torch.float)
         )
 
-def create_pyg_loader(pn_path, vn_dir, batch_size=4, shuffle=True):
+def create_pyg_dataset(pn_path, vn_dir):
     pn_X, pn_adj = load_pn(pn_path)
+    # 加载 VN 文件列表（默认按文件名排序，即时间顺序）
     vn_list = load_all_vns(vn_dir)
     dataset = VNEDatasetPyG(vn_list)
-    
-    from torch_geometric.loader import DataLoader as PyGDataLoader
-    loader = PyGDataLoader(dataset, batch_size=batch_size, shuffle=shuffle)
-    return loader, pn_X, pn_adj
+    return dataset, pn_X, pn_adj
+
