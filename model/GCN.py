@@ -25,8 +25,7 @@ def r2c_loss(pred,
              pn_available_bw,     # 当前时刻 PN 链路带宽可用资源 [pn, pn]
              pn_pos, 
              lambda_node=1.0, 
-             lambda_link=1.0, 
-             soft=True, 
+             lambda_link=1.0,  
              debug=False):
     """
     R2C Loss with Node + Link resource constraints
@@ -38,44 +37,22 @@ def r2c_loss(pred,
     pn_pos: [pn, 2]  物理节点坐标
     """
 
-    # ========================
-    # Revenue (收益)
-    # ========================
     revenue = vn_node_demand.sum() + vn_edge_demand.sum()
 
-    # ========================
-    # Cost (节点 + 链路)
-    # ========================
     # ---- 节点分配 (期望分配的 CPU) ----
     node_allocated = torch.matmul(pred.T, vn_node_demand)  # [pn]
     node_cost = node_allocated.sum()
 
     # ---- 链路分配 ----
-    if vn_edge_demand.sum() > 0:
-        if soft:
-            pred_u = pred.unsqueeze(1)  # [vn,1,pn]
-            pred_v = pred.unsqueeze(0)  # [1,vn,pn]
-            prob_outer = pred_u.unsqueeze(-1) * pred_v.unsqueeze(-2)  # [vn,vn,pn,pn]
-            pn_dist = torch.cdist(pn_pos, pn_pos, p=2)  # [pn,pn]
-            path_lengths = (prob_outer * pn_dist).sum(dim=(-2, -1))  # [vn,vn]
-        else:
-            assign_idx = pred.argmax(dim=1)
-            path_lengths = torch.zeros_like(vn_edge_demand)
-            for u in range(vn_edge_demand.shape[0]):
-                for v in range(vn_edge_demand.shape[1]):
-                    if vn_edge_demand[u, v] > 0:
-                        path_lengths[u, v] = torch.norm(
-                            pn_pos[assign_idx[u]] - pn_pos[assign_idx[v]], p=2
-                        )
-        edge_cost = (vn_edge_demand * path_lengths).sum()
-    else:
-        edge_cost = torch.tensor(0.0, device=vn_node_demand.device)
+    pred_u = pred.unsqueeze(1)  # [vn,1,pn]
+    pred_v = pred.unsqueeze(0)  # [1,vn,pn]
+    prob_outer = pred_u.unsqueeze(-1) * pred_v.unsqueeze(-2)  # [vn,vn,pn,pn]
+
+    pn_dist = torch.cdist(pn_pos, pn_pos, p=2)  # [pn,pn]
+    path_lengths = (prob_outer * pn_dist).sum(dim=(-2, -1))  # [vn,vn]
+    edge_cost = (vn_edge_demand * path_lengths).sum()
 
     cost = node_cost + edge_cost + 1e-8
-
-    # ========================
-    # R2C
-    # ========================
     r2c = revenue / cost
     base_loss = 1 - r2c
 
@@ -96,9 +73,6 @@ def r2c_loss(pred,
     else:
         penalty_link = torch.tensor(0.0, device=vn_node_demand.device)
 
-    # ========================
-    # 最终 Loss
-    # ========================
     loss = base_loss + lambda_node * penalty_node + lambda_link * penalty_link
 
     if debug:
